@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/c-project/dsa/constrained-linear-list/LinkQueue.h
+stdbool.h
+-
+../error/Error.h
+/mnt/d/c-project/dsa/error/Error.h
+
+/mnt/d/c-project/dsa/error/Error.c
+Error.h
+/mnt/d/c-project/dsa/error/Error.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+
+/mnt/d/c-project/dsa/error/Error.h
+setjmp.h
+-
+
+/mnt/d/c-project/dsa/graph-structure/MGraph.c
+MGraph.h
+/mnt/d/c-project/dsa/graph-structure/MGraph.h
+
+/mnt/d/c-project/dsa/graph-structure/MGraph.h
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+../constrained-linear-list/LinkQueue.h
+/mnt/d/c-project/dsa/constrained-linear-list/LinkQueue.h
+
