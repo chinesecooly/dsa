@@ -1,10 +1,3 @@
-# 系列文章目录
-一、基于WSL2和Clion搭建Win下C开发环境
-二、make、makeFile、CMake、CMakeLists的使用
-三、全面、详细、通俗易懂的C语言语法和标准库
-
-@[TOC](文章目录)
-
 # 前言
 Win下C语言开发环境千千万，但基于WSL2和Clion的环境是最好用且最易于后续发展的。关于Cygwin和MinGW的区别与联系可以看[这篇文章](https://www.zhihu.com/question/22137175/answer/90908473)。
 # WSL2
