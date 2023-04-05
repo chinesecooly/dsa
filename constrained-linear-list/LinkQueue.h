@@ -21,7 +21,7 @@ bool isEmpty(LinkQueue this);
 
 void enQueue(LinkQueue this, LinkQueueElemType elem);
 
-LinkQueueElemType deQueue(LinkQueue  this) throws LinkQueueError;
+LinkQueueElemType deQueue(LinkQueue  this);
 
 LinkQueueElemType getHead(LinkQueue this);
 

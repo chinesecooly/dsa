@@ -57,48 +57,9 @@ include CMakeFiles/dsa.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dsa.dir/flags.make
 
-CMakeFiles/dsa.dir/general-linear-list/SqList.c.o: CMakeFiles/dsa.dir/flags.make
-CMakeFiles/dsa.dir/general-linear-list/SqList.c.o: ../general-linear-list/SqList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dsa.dir/general-linear-list/SqList.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/general-linear-list/SqList.c.o   -c /mnt/d/c-project/dsa/general-linear-list/SqList.c
-
-CMakeFiles/dsa.dir/general-linear-list/SqList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/general-linear-list/SqList.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/general-linear-list/SqList.c > CMakeFiles/dsa.dir/general-linear-list/SqList.c.i
-
-CMakeFiles/dsa.dir/general-linear-list/SqList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/general-linear-list/SqList.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/general-linear-list/SqList.c -o CMakeFiles/dsa.dir/general-linear-list/SqList.c.s
-
-CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o: CMakeFiles/dsa.dir/flags.make
-CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o: ../general-linear-list/LinkList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o   -c /mnt/d/c-project/dsa/general-linear-list/LinkList.c
-
-CMakeFiles/dsa.dir/general-linear-list/LinkList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/general-linear-list/LinkList.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/general-linear-list/LinkList.c > CMakeFiles/dsa.dir/general-linear-list/LinkList.c.i
-
-CMakeFiles/dsa.dir/general-linear-list/LinkList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/general-linear-list/LinkList.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/general-linear-list/LinkList.c -o CMakeFiles/dsa.dir/general-linear-list/LinkList.c.s
-
-CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o: CMakeFiles/dsa.dir/flags.make
-CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o: ../general-linear-list/DLinkList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o   -c /mnt/d/c-project/dsa/general-linear-list/DLinkList.c
-
-CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/general-linear-list/DLinkList.c > CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.i
-
-CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/general-linear-list/DLinkList.c -o CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.s
-
 CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o: ../constrained-linear-list/SqStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/SqStack.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.i: cmake_force
@@ -111,7 +72,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.s: cmake_force
 
 CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o: ../constrained-linear-list/LinkStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/LinkStack.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.i: cmake_force
@@ -124,7 +85,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.s: cmake_force
 
 CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o: ../constrained-linear-list/SqQueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/SqQueue.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.i: cmake_force
@@ -137,7 +98,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.s: cmake_force
 
 CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.o: ../constrained-linear-list/LinkQueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/LinkQueue.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.i: cmake_force
@@ -150,7 +111,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/LinkQueue.c.s: cmake_force
 
 CMakeFiles/dsa.dir/constrained-linear-list/String.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/String.c.o: ../constrained-linear-list/String.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/String.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/String.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/String.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/String.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/String.c.i: cmake_force
@@ -163,7 +124,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/String.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../tree-structure/BiTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dsa.dir/tree-structure/BiTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dsa.dir/tree-structure/BiTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/BiTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/BiTree.c
 
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.i: cmake_force
@@ -176,7 +137,7 @@ CMakeFiles/dsa.dir/tree-structure/BiTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/main.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dsa.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dsa.dir/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/main.c.o   -c /mnt/d/c-project/dsa/main.c
 
 CMakeFiles/dsa.dir/main.c.i: cmake_force
@@ -189,7 +150,7 @@ CMakeFiles/dsa.dir/main.c.s: cmake_force
 
 CMakeFiles/dsa.dir/error/Error.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/error/Error.c.o: ../error/Error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dsa.dir/error/Error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dsa.dir/error/Error.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/error/Error.c.o   -c /mnt/d/c-project/dsa/error/Error.c
 
 CMakeFiles/dsa.dir/error/Error.c.i: cmake_force
@@ -202,7 +163,7 @@ CMakeFiles/dsa.dir/error/Error.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o: ../tree-structure/ThreadTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/ThreadTree.c
 
 CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.i: cmake_force
@@ -215,7 +176,7 @@ CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/PTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/PTree.c.o: ../tree-structure/PTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dsa.dir/tree-structure/PTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dsa.dir/tree-structure/PTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/PTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/PTree.c
 
 CMakeFiles/dsa.dir/tree-structure/PTree.c.i: cmake_force
@@ -228,7 +189,7 @@ CMakeFiles/dsa.dir/tree-structure/PTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../tree-structure/CTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dsa.dir/tree-structure/CTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dsa.dir/tree-structure/CTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/CTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/CTree.c
 
 CMakeFiles/dsa.dir/tree-structure/CTree.c.i: cmake_force
@@ -241,7 +202,7 @@ CMakeFiles/dsa.dir/tree-structure/CTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: ../tree-structure/CSTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dsa.dir/tree-structure/CSTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dsa.dir/tree-structure/CSTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/CSTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/CSTree.c
 
 CMakeFiles/dsa.dir/tree-structure/CSTree.c.i: cmake_force
@@ -254,7 +215,7 @@ CMakeFiles/dsa.dir/tree-structure/CSTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/HTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/HTree.c.o: ../tree-structure/HTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dsa.dir/tree-structure/HTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dsa.dir/tree-structure/HTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/HTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/HTree.c
 
 CMakeFiles/dsa.dir/tree-structure/HTree.c.i: cmake_force
@@ -267,7 +228,7 @@ CMakeFiles/dsa.dir/tree-structure/HTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.o: ../constrained-linear-list/PriorityQueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.o   -c /mnt/d/c-project/dsa/constrained-linear-list/PriorityQueue.c
 
 CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.i: cmake_force
@@ -280,7 +241,7 @@ CMakeFiles/dsa.dir/constrained-linear-list/PriorityQueue.c.s: cmake_force
 
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.o: ../graph-structure/UFSet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dsa.dir/graph-structure/UFSet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dsa.dir/graph-structure/UFSet.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/graph-structure/UFSet.c.o   -c /mnt/d/c-project/dsa/graph-structure/UFSet.c
 
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.i: cmake_force
@@ -293,7 +254,7 @@ CMakeFiles/dsa.dir/graph-structure/UFSet.c.s: cmake_force
 
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../graph-structure/MGraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dsa.dir/graph-structure/MGraph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dsa.dir/graph-structure/MGraph.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/graph-structure/MGraph.c.o   -c /mnt/d/c-project/dsa/graph-structure/MGraph.c
 
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.i: cmake_force
@@ -306,7 +267,7 @@ CMakeFiles/dsa.dir/graph-structure/MGraph.c.s: cmake_force
 
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o: ../graph-structure/ALGraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o   -c /mnt/d/c-project/dsa/graph-structure/ALGraph.c
 
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.i: cmake_force
@@ -319,7 +280,7 @@ CMakeFiles/dsa.dir/graph-structure/ALGraph.c.s: cmake_force
 
 CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o: ../graph-structure/OLGraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o   -c /mnt/d/c-project/dsa/graph-structure/OLGraph.c
 
 CMakeFiles/dsa.dir/graph-structure/OLGraph.c.i: cmake_force
@@ -332,7 +293,7 @@ CMakeFiles/dsa.dir/graph-structure/OLGraph.c.s: cmake_force
 
 CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o: ../graph-structure/AMLGraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o   -c /mnt/d/c-project/dsa/graph-structure/AMLGraph.c
 
 CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.i: cmake_force
@@ -345,7 +306,7 @@ CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.s: cmake_force
 
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o: ../lookup-algorithm/BinarySearch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o   -c /mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c
 
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.i: cmake_force
@@ -358,7 +319,7 @@ CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.s: cmake_force
 
 CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o: ../lookup-algorithm/SeqSearch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o   -c /mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.c
 
 CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.i: cmake_force
@@ -371,7 +332,7 @@ CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.s: cmake_force
 
 CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: ../tree-structure/BSTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dsa.dir/tree-structure/BSTree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/dsa.dir/tree-structure/BSTree.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/tree-structure/BSTree.c.o   -c /mnt/d/c-project/dsa/tree-structure/BSTree.c
 
 CMakeFiles/dsa.dir/tree-structure/BSTree.c.i: cmake_force
@@ -384,7 +345,7 @@ CMakeFiles/dsa.dir/tree-structure/BSTree.c.s: cmake_force
 
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o: ../sort-algorithm/InsertSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o   -c /mnt/d/c-project/dsa/sort-algorithm/InsertSort.c
 
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.i: cmake_force
@@ -397,7 +358,7 @@ CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.s: cmake_force
 
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o: ../sort-algorithm/SwapSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o   -c /mnt/d/c-project/dsa/sort-algorithm/SwapSort.c
 
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.i: cmake_force
@@ -410,7 +371,7 @@ CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.s: cmake_force
 
 CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o: ../sort-algorithm/SelectSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o   -c /mnt/d/c-project/dsa/sort-algorithm/SelectSort.c
 
 CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.i: cmake_force
@@ -423,7 +384,7 @@ CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.s: cmake_force
 
 CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o: ../sort-algorithm/MergeSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o   -c /mnt/d/c-project/dsa/sort-algorithm/MergeSort.c
 
 CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.i: cmake_force
@@ -434,11 +395,47 @@ CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/sort-algorithm/MergeSort.c -o CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.s
 
+CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o: ../linearList/sequenceList/SequenceList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o   -c /mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c
+
+CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c > CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.i
+
+CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c -o CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.s
+
+CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o: ../linearList/linkList/SingleLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o   -c /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c
+
+CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c > CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.i
+
+CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c -o CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.s
+
+CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o: ../linearList/linkList/DoubleLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o   -c /mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c
+
+CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c > CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.i
+
+CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c -o CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.s
+
 # Object files for target dsa
 dsa_OBJECTS = \
-"CMakeFiles/dsa.dir/general-linear-list/SqList.c.o" \
-"CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o" \
-"CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o" \
 "CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o" \
 "CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o" \
 "CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o" \
@@ -464,14 +461,14 @@ dsa_OBJECTS = \
 "CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o" \
 "CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o" \
 "CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o" \
-"CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o"
+"CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o" \
+"CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o" \
+"CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o" \
+"CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o"
 
 # External object files for target dsa
 dsa_EXTERNAL_OBJECTS =
 
-dsa: CMakeFiles/dsa.dir/general-linear-list/SqList.c.o
-dsa: CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o
-dsa: CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o
 dsa: CMakeFiles/dsa.dir/constrained-linear-list/SqStack.c.o
 dsa: CMakeFiles/dsa.dir/constrained-linear-list/LinkStack.c.o
 dsa: CMakeFiles/dsa.dir/constrained-linear-list/SqQueue.c.o
@@ -498,6 +495,9 @@ dsa: CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o
 dsa: CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o
 dsa: CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o
 dsa: CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o
+dsa: CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o
+dsa: CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o
+dsa: CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o
 dsa: CMakeFiles/dsa.dir/build.make
 dsa: CMakeFiles/dsa.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable dsa"

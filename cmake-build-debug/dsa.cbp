@@ -106,18 +106,6 @@
 		<Unit filename="/mnt/d/c-project/dsa/error/Error.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/general-linear-list/DLinkList.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/general-linear-list/LinkList.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/general-linear-list/LinkList.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/general-linear-list/SqList.c">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/graph-structure/ALGraph.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -146,6 +134,24 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/graph-structure/UFSet.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c">
@@ -227,6 +233,9 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/ThreadTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/util/Util.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/CMakeLists.txt">

@@ -9,8 +9,6 @@
 typedef struct {
     char *str;
     int length;
-
-
 } String;
 
 int BF(String src, String target) {
@@ -42,10 +40,10 @@ int KMP(String src, String target) {
         if (k == -1 || charAt(target, ptr) == charAt(target, k)) {
             k++;
             ptr++;
-            if(charAt(target,ptr)!= charAt(target,k)){
+            if (charAt(target, ptr) != charAt(target, k)) {
                 next[ptr] = k;
-            } else{
-                next[ptr]=next[k];
+            } else {
+                next[ptr] = next[k];
             }
         } else {
             k = next[k];

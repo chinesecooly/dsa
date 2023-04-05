@@ -3,11 +3,11 @@
 //
 
 #include "CTree.h"
-#include "../general-linear-list/LinkList.h"
+#include "../linearList/linkList/SingleLinkedList.h"
 
 struct CTNode{
     CTreeElemType data;
-    LinkList childIndexLinkList;
+    SingleLinkedList childIndexLinkList;
 };
 
 struct CTree{

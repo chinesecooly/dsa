@@ -2,21 +2,35 @@
 // Created by Administrator on 2022/3/24.
 //
 
-#ifndef INC_2023_ERROR_H
-#define INC_2023_ERROR_H
+#ifndef DSA_ERROR_H
+#define DSA_ERROR_H
 
 #include <setjmp.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <stdio.h>
 
-#define try if(!(val=setjmp(jmpBuf)))
-#define catch(jmpBuf) else
+#define try if(!(setjmp(env)))
+#define catch(TYPE) else if(TYPE==error.type)
+#define finally
+#define throw
 #define throws
-#define error val
+#define Error(TYPE,MSG) do{error.type=TYPE;error.msg=MSG;error.line=__LINE__;error.date=__DATE__;error.file=__FILE__;longjmp(env,TYPE);}while(false)
 
-extern jmp_buf jmpBuf;
-extern int val;
+struct Error {
+    int type;
+    int line;
+    char *msg;
+    char *date;
+    char *file;
+};
+extern jmp_buf env;
+extern struct Error error;
 
-void stdErr(int);
+/**
+ * 控制台打印异常信息
+ */
+void stdErr();
 
-int info(char * date,char * time,char * filename,int lineNumber,char * msg);
-
-#endif //INC_2023_ERROR_H
+#endif //DSA_ERROR_H

@@ -19,13 +19,6 @@ CMakeFiles/dsa.dir/constrained-linear-list/String.c.o
 CMakeFiles/dsa.dir/error/Error.c.o
  /mnt/d/c-project/dsa/error/Error.c
  /mnt/d/c-project/dsa/error/Error.h
-CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o
- /mnt/d/c-project/dsa/general-linear-list/DLinkList.c
-CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o
- /mnt/d/c-project/dsa/general-linear-list/LinkList.c
- /mnt/d/c-project/dsa/general-linear-list/LinkList.h
-CMakeFiles/dsa.dir/general-linear-list/SqList.c.o
- /mnt/d/c-project/dsa/general-linear-list/SqList.c
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o
  /mnt/d/c-project/dsa/graph-structure/ALGraph.c
  /mnt/d/c-project/dsa/graph-structure/ALGraph.h
@@ -43,6 +36,19 @@ CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.o
  /mnt/d/c-project/dsa/graph-structure/UFSet.c
  /mnt/d/c-project/dsa/graph-structure/UFSet.h
+CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o
+ /mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c
+ /mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c
+ /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o
+ /mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c
+ /mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o
  /mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c
  /mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.h
@@ -50,8 +56,8 @@ CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o
  /mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.c
  /mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.h
 CMakeFiles/dsa.dir/main.c.o
+ /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/main.c
- /mnt/d/c-project/dsa/sort-algorithm/MergeSort.h
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.c
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.h
@@ -76,9 +82,11 @@ CMakeFiles/dsa.dir/tree-structure/CSTree.c.o
  /mnt/d/c-project/dsa/tree-structure/CSTree.c
  /mnt/d/c-project/dsa/tree-structure/CSTree.h
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o
- /mnt/d/c-project/dsa/general-linear-list/LinkList.h
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.h
  /mnt/d/c-project/dsa/tree-structure/CTree.c
  /mnt/d/c-project/dsa/tree-structure/CTree.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/tree-structure/HTree.c.o
  /mnt/d/c-project/dsa/constrained-linear-list/PriorityQueue.h
  /mnt/d/c-project/dsa/tree-structure/HTree.c

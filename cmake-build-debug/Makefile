@@ -312,87 +312,6 @@ error/Error.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/error/Error.c.s
 .PHONY : error/Error.c.s
 
-general-linear-list/DLinkList.o: general-linear-list/DLinkList.c.o
-
-.PHONY : general-linear-list/DLinkList.o
-
-# target to build an object file
-general-linear-list/DLinkList.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.o
-.PHONY : general-linear-list/DLinkList.c.o
-
-general-linear-list/DLinkList.i: general-linear-list/DLinkList.c.i
-
-.PHONY : general-linear-list/DLinkList.i
-
-# target to preprocess a source file
-general-linear-list/DLinkList.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.i
-.PHONY : general-linear-list/DLinkList.c.i
-
-general-linear-list/DLinkList.s: general-linear-list/DLinkList.c.s
-
-.PHONY : general-linear-list/DLinkList.s
-
-# target to generate assembly for a file
-general-linear-list/DLinkList.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/DLinkList.c.s
-.PHONY : general-linear-list/DLinkList.c.s
-
-general-linear-list/LinkList.o: general-linear-list/LinkList.c.o
-
-.PHONY : general-linear-list/LinkList.o
-
-# target to build an object file
-general-linear-list/LinkList.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/LinkList.c.o
-.PHONY : general-linear-list/LinkList.c.o
-
-general-linear-list/LinkList.i: general-linear-list/LinkList.c.i
-
-.PHONY : general-linear-list/LinkList.i
-
-# target to preprocess a source file
-general-linear-list/LinkList.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/LinkList.c.i
-.PHONY : general-linear-list/LinkList.c.i
-
-general-linear-list/LinkList.s: general-linear-list/LinkList.c.s
-
-.PHONY : general-linear-list/LinkList.s
-
-# target to generate assembly for a file
-general-linear-list/LinkList.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/LinkList.c.s
-.PHONY : general-linear-list/LinkList.c.s
-
-general-linear-list/SqList.o: general-linear-list/SqList.c.o
-
-.PHONY : general-linear-list/SqList.o
-
-# target to build an object file
-general-linear-list/SqList.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/SqList.c.o
-.PHONY : general-linear-list/SqList.c.o
-
-general-linear-list/SqList.i: general-linear-list/SqList.c.i
-
-.PHONY : general-linear-list/SqList.i
-
-# target to preprocess a source file
-general-linear-list/SqList.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/SqList.c.i
-.PHONY : general-linear-list/SqList.c.i
-
-general-linear-list/SqList.s: general-linear-list/SqList.c.s
-
-.PHONY : general-linear-list/SqList.s
-
-# target to generate assembly for a file
-general-linear-list/SqList.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/general-linear-list/SqList.c.s
-.PHONY : general-linear-list/SqList.c.s
-
 graph-structure/ALGraph.o: graph-structure/ALGraph.c.o
 
 .PHONY : graph-structure/ALGraph.o
@@ -527,6 +446,87 @@ graph-structure/UFSet.s: graph-structure/UFSet.c.s
 graph-structure/UFSet.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/graph-structure/UFSet.c.s
 .PHONY : graph-structure/UFSet.c.s
+
+linearList/linkList/DoubleLinkedList.o: linearList/linkList/DoubleLinkedList.c.o
+
+.PHONY : linearList/linkList/DoubleLinkedList.o
+
+# target to build an object file
+linearList/linkList/DoubleLinkedList.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.o
+.PHONY : linearList/linkList/DoubleLinkedList.c.o
+
+linearList/linkList/DoubleLinkedList.i: linearList/linkList/DoubleLinkedList.c.i
+
+.PHONY : linearList/linkList/DoubleLinkedList.i
+
+# target to preprocess a source file
+linearList/linkList/DoubleLinkedList.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.i
+.PHONY : linearList/linkList/DoubleLinkedList.c.i
+
+linearList/linkList/DoubleLinkedList.s: linearList/linkList/DoubleLinkedList.c.s
+
+.PHONY : linearList/linkList/DoubleLinkedList.s
+
+# target to generate assembly for a file
+linearList/linkList/DoubleLinkedList.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/DoubleLinkedList.c.s
+.PHONY : linearList/linkList/DoubleLinkedList.c.s
+
+linearList/linkList/SingleLinkedList.o: linearList/linkList/SingleLinkedList.c.o
+
+.PHONY : linearList/linkList/SingleLinkedList.o
+
+# target to build an object file
+linearList/linkList/SingleLinkedList.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.o
+.PHONY : linearList/linkList/SingleLinkedList.c.o
+
+linearList/linkList/SingleLinkedList.i: linearList/linkList/SingleLinkedList.c.i
+
+.PHONY : linearList/linkList/SingleLinkedList.i
+
+# target to preprocess a source file
+linearList/linkList/SingleLinkedList.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.i
+.PHONY : linearList/linkList/SingleLinkedList.c.i
+
+linearList/linkList/SingleLinkedList.s: linearList/linkList/SingleLinkedList.c.s
+
+.PHONY : linearList/linkList/SingleLinkedList.s
+
+# target to generate assembly for a file
+linearList/linkList/SingleLinkedList.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/linkList/SingleLinkedList.c.s
+.PHONY : linearList/linkList/SingleLinkedList.c.s
+
+linearList/sequenceList/SequenceList.o: linearList/sequenceList/SequenceList.c.o
+
+.PHONY : linearList/sequenceList/SequenceList.o
+
+# target to build an object file
+linearList/sequenceList/SequenceList.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.o
+.PHONY : linearList/sequenceList/SequenceList.c.o
+
+linearList/sequenceList/SequenceList.i: linearList/sequenceList/SequenceList.c.i
+
+.PHONY : linearList/sequenceList/SequenceList.i
+
+# target to preprocess a source file
+linearList/sequenceList/SequenceList.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.i
+.PHONY : linearList/sequenceList/SequenceList.c.i
+
+linearList/sequenceList/SequenceList.s: linearList/sequenceList/SequenceList.c.s
+
+.PHONY : linearList/sequenceList/SequenceList.s
+
+# target to generate assembly for a file
+linearList/sequenceList/SequenceList.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linearList/sequenceList/SequenceList.c.s
+.PHONY : linearList/sequenceList/SequenceList.c.s
 
 lookup-algorithm/BinarySearch.o: lookup-algorithm/BinarySearch.c.o
 
@@ -936,15 +936,6 @@ help:
 	@echo "... error/Error.o"
 	@echo "... error/Error.i"
 	@echo "... error/Error.s"
-	@echo "... general-linear-list/DLinkList.o"
-	@echo "... general-linear-list/DLinkList.i"
-	@echo "... general-linear-list/DLinkList.s"
-	@echo "... general-linear-list/LinkList.o"
-	@echo "... general-linear-list/LinkList.i"
-	@echo "... general-linear-list/LinkList.s"
-	@echo "... general-linear-list/SqList.o"
-	@echo "... general-linear-list/SqList.i"
-	@echo "... general-linear-list/SqList.s"
 	@echo "... graph-structure/ALGraph.o"
 	@echo "... graph-structure/ALGraph.i"
 	@echo "... graph-structure/ALGraph.s"
@@ -960,6 +951,15 @@ help:
 	@echo "... graph-structure/UFSet.o"
 	@echo "... graph-structure/UFSet.i"
 	@echo "... graph-structure/UFSet.s"
+	@echo "... linearList/linkList/DoubleLinkedList.o"
+	@echo "... linearList/linkList/DoubleLinkedList.i"
+	@echo "... linearList/linkList/DoubleLinkedList.s"
+	@echo "... linearList/linkList/SingleLinkedList.o"
+	@echo "... linearList/linkList/SingleLinkedList.i"
+	@echo "... linearList/linkList/SingleLinkedList.s"
+	@echo "... linearList/sequenceList/SequenceList.o"
+	@echo "... linearList/sequenceList/SequenceList.i"
+	@echo "... linearList/sequenceList/SequenceList.s"
 	@echo "... lookup-algorithm/BinarySearch.o"
 	@echo "... lookup-algorithm/BinarySearch.i"
 	@echo "... lookup-algorithm/BinarySearch.s"
