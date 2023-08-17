@@ -76,30 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/LinkQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/LinkQueue.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/LinkStack.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/PriorityQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/PriorityQueue.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/SqQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/SqStack.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/constrained-linear-list/String.c">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/error/Error.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -136,22 +112,70 @@
 		<Unit filename="/mnt/d/c-project/dsa/graph-structure/UFSet.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkQueue.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/DoubleLinkedList.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkQueue.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkStack.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/linkList/SingleLinkedList.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/PriorityQueue.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/PriorityQueue.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linearList/sequenceList/SequenceList.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/SqQueue.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/SqStack.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/String.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c">

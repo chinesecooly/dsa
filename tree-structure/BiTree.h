@@ -5,7 +5,7 @@
 #ifndef INC_2023_BITREE_H
 #define INC_2023_BITREE_H
 
-#include "../constrained-linear-list/LinkQueue.h"
+#include "../linear-structure/LinkQueue.h"
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>

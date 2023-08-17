@@ -1,4 +1,0 @@
-- 基于WSL2和Clion搭建Win下C开发环境.md
-- Linux下C语言开发工具（gcc、gdb、make、cmake）.md
-- 全面、详细、通俗易懂的C语言语法和标准库.md
-- C语言版数据结构和算法（持续更新）.md

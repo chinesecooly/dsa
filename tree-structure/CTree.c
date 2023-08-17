@@ -3,7 +3,7 @@
 //
 
 #include "CTree.h"
-#include "../linearList/linkList/SingleLinkedList.h"
+#include "../linear-structure/linked-list/single-linked-list/SingleLinkedList.h"
 
 struct CTNode{
     CTreeElemType data;

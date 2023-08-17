@@ -12,14 +12,14 @@
 #include <stdio.h>
 
 #define try if(!(setjmp(env)))
-#define catch(TYPE) else if(TYPE==error.type)
+#define catch(TYPE) else if(strcmp(#TYPE,error.type)==0)
 #define finally
 #define throw
 #define throws
-#define Error(TYPE,MSG) do{error.type=TYPE;error.msg=MSG;error.line=__LINE__;error.date=__DATE__;error.file=__FILE__;longjmp(env,TYPE);}while(false)
+#define Error(TYPE, MSG) do{error.type=#TYPE;error.msg=MSG;error.line=__LINE__;error.date=__DATE__;error.file=__FILE__;longjmp(env,1);}while(false)
 
 struct Error {
-    int type;
+    char *type;
     int line;
     char *msg;
     char *date;
@@ -32,5 +32,16 @@ extern struct Error error;
  * 控制台打印异常信息
  */
 void stdErr();
+
+/**
+ * 控制台打印提示消息
+ */
+void stdInfo();
+
+/**
+ * 控制台打印警告消息
+ */
+void stdWarn();
+
 
 #endif //DSA_ERROR_H

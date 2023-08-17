@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../constrained-linear-list/LinkQueue.h"
+#include "../linear-structure/LinkQueue.h"
 
 typedef void * VertexType;
 typedef void * EdgeType;

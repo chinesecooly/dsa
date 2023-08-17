@@ -5,7 +5,7 @@
 #include "HTree.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "../constrained-linear-list/PriorityQueue.h"
+#include "../linear-structure/PriorityQueue.h"
 #include <string.h>
 
 struct HTNode {
