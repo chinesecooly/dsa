@@ -11,6 +11,5 @@ int main() {
     } catch(OUT_RANGE_ERROR) {
         stdErr();
     }
-
     return 0;
 }

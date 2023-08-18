@@ -9,7 +9,7 @@ struct SequenceList {
 };
 
 SequenceList sequenceListConstructor() {
-    SequenceList sequenceList = malloc(sizeof(struct SequenceList));
+    SequenceList sequenceList = malloc(sizeof(SequenceList));
     sequenceList->data = calloc(MAX_SIZE, sizeof(ElementType));
     sequenceList->length = 0;
     return sequenceList;

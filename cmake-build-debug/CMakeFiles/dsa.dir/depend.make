@@ -46,11 +46,7 @@ CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedL
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../util/Util.h
 
-CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../error/Error.h
-CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
 CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../linear-structure/queue/LinkedQueue.c
-CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../linear-structure/queue/LinkedQueue.h
-CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../util/Util.h
 
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../error/Error.h
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../linear-structure/queue/SequenceQueue.c

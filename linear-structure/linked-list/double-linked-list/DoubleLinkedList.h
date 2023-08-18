@@ -7,5 +7,12 @@
 
 #include "../../../util/Util.h"
 
-typedef struct Node Node, *DoubleLinkedList;
+typedef struct DoubleLinkedListNode DoubleLinkedListNode, *DoubleLinkedList;
+
+/**
+ * 构造带头节点的函数
+ * @return 双链表
+ */
+DoubleLinkedList doubleLinkedListConstructor();
+
 #endif //DSA_DOUBLELINKEDLIST_H

@@ -16,40 +16,49 @@ typedef struct SingleLinkedListNode SingleLinkedListNode, *SingleLinkedList;
  * 构造带头节点的单链表
  * @return
  */
-SingleLinkedList constructor();
+SingleLinkedList singleLinkedListConstructor();
 
 /**
- * 头插法插入元素
- */
-void add(SingleLinkedList, ElementType);
-
-/**
- * 获取
+ * 头插法
+ * @param elementList
+ * @param length
  * @return
  */
-ElementType get(SingleLinkedList, int)throws LIST_HAS_NO_ELEMENT_ERROR INDEX_OUT_OF_RANGE_ERROR;
+SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int length);
 
 /**
- * 链表元素个数
+ * 尾插法
+ * @param elementList
+ * @param length
  * @return
  */
-int size(SingleLinkedList);
+SingleLinkedList singleLinkedListTailConstructor(ElementType *elementList, int length);
 
 /**
- * 打印
+ * 插入
  */
-void print(SingleLinkedList);
+void singleLinkedListInsert(SingleLinkedList, int, ElementType) throws INDEX_OUT_OF_RANGE_ERROR;
 
 /**
- * 合并有序链表
- * @return 新链表
+ * 删除
  */
-SingleLinkedList mergeOrderedLinkedList(SingleLinkedList, SingleLinkedList);
+void singleLinkedListDelete(SingleLinkedList, int) throws INDEX_OUT_OF_RANGE_ERROR;
 
 /**
- * 反转链表
- * @return 新链表
+ * 查找索引
+ * @param list 单链表
+ * @param element 查找元素
+ * @return 索引
  */
-SingleLinkedList reverseList(SingleLinkedList);
+int singleLinkedListIndexOf(SingleLinkedList list, ElementType element);
+
+/**
+ * 按位查找
+ * @param list 单链表
+ * @param index 索引值
+ * @return 元素
+ */
+ElementType
+singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR LIST_HAS_NO_ELEMENT_ERROR;
 
 #endif //DSA_SINGLELINKEDLIST_H

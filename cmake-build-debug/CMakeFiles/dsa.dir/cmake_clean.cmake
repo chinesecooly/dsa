@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dsa.dir/linear-structure/String.c.o"
   "CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o"
   "CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o"
+  "CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o"
   "CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o"
   "CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o"
   "CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o"

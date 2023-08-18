@@ -3,9 +3,20 @@
 //
 #include "DoubleLinkedList.h"
 
-struct Node {
+struct DoubleLinkedListNode {
     ElementType data;
-    struct Node *last;
-    struct Node *next;
+    struct DoubleLinkedListNode *prior;
+    struct DoubleLinkedListNode *next;
 };
+
+/**
+ * 构造函数
+ * @return 双链表
+ */
+DoubleLinkedList doubleLinkedListConstructor() {
+    DoubleLinkedList list = malloc(sizeof(DoubleLinkedListNode));
+    list->prior = NULL;
+    list->next = NULL;
+    return list;
+}
 

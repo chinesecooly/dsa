@@ -22,7 +22,7 @@ void sequenceListDestroy(SequenceList);
 void sequenceListInsert(SequenceList, int, ElementType) throws OUT_RANGE_ERROR;
 
 //删除元素
-void sequenceListDelete(SequenceList, int index);
+void sequenceListDelete(SequenceList, int);
 
 //查找下标
 int sequenceListIndexOf(SequenceList, ElementType);

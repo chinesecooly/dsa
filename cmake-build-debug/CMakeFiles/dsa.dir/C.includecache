@@ -34,17 +34,17 @@ SingleLinkedList.h
 ../../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c
-LinkedQueue.h
-/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.h
-../linked-list/single-linked-list/SingleLinkedList.h
-/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c
+SequenceList.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
 
-/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.h
-../../error/Error.h
-/mnt/d/c-project/dsa/error/Error.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
 ../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
+
+/mnt/d/c-project/dsa/main.c
+linear-structure/sequence-list/SequenceList.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
 
 /mnt/d/c-project/dsa/tree-structure/CTree.c
 CTree.h

@@ -8,85 +8,145 @@ struct SingleLinkedListNode {
     struct SingleLinkedListNode *next;
 };
 
+/**
+ * 构造函数
+ * @return 单链表
+ */
 SingleLinkedList singleLinkedListConstructor() {
-    Node *head = (Node *) malloc(sizeof(Node));
+    SingleLinkedListNode *head = malloc(sizeof(SingleLinkedListNode));
     head->next = NULL;
     return head;
 }
 
-//ElementType get(SingleLinkedList list, int index) throws LIST_HAS_NO_ELEMENT_ERROR INDEX_OUT_OF_RANGE_ERROR {
-//    int i = 0;
-//    if (list->next == NULL) {
-//        throw Error(LIST_HAS_NO_ELEMENT_ERROR, "集合为空");
-//    }
-//    for (Node *node = list->next; node != NULL; node = node->next) {
-//        ++i;
-//        if (i == index) {
-//            return node->data;
-//        }
-//    }
-//    throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引超出范围");
-//}
+/**
+ * 头插法
+ * @param elementList
+ * @param length
+ * @return
+ */
+SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int length) {
+    SingleLinkedList list = singleLinkedListConstructor();
+    for (int i = 0; i < length; ++i) {
+        SingleLinkedListNode *node = malloc(sizeof(SingleLinkedListNode));
+        node->data = *(elementList + i);
+        node->next = list->next;
+        list->next = node;
+    }
+    return list;
+}
 
-void add(SingleLinkedList list, ElementType element) {
-    Node *node = (Node *) malloc(sizeof(Node));
+/**
+ * 尾插法
+ * @param elementList
+ * @param length
+ * @return
+ */
+SingleLinkedList singleLinkedListTailConstructor(ElementType *elementList, int length) {
+    SingleLinkedList list = singleLinkedListConstructor();
+    SingleLinkedListNode *tailNode = list;
+    for (int i = 0; i < length; ++i) {
+        SingleLinkedListNode *node = malloc(sizeof(SingleLinkedListNode));
+        node->data = *(elementList + i);
+        node->next = NULL;
+        tailNode->next = node;
+        tailNode = node;
+    }
+    return list;
+}
+
+/**
+ * 按位插入
+ * @param singleLinkedList 单链表
+ * @param index 位置
+ * @param element 元素
+ */
+void singleLinkedListInsert(SingleLinkedList singleLinkedList, int index,
+                            ElementType element) throws INDEX_OUT_OF_RANGE_ERROR {
+    if (index < 1) {
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
+    }
+    int i = 0;
+    SingleLinkedListNode *precursorNode = NULL;
+    for (SingleLinkedListNode *node = singleLinkedList; node != NULL && i < index; node = node->next) {
+        if (++i == index) {
+            precursorNode = node;
+            break;
+        }
+    }
+    if (precursorNode == NULL) {
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
+    }
+    SingleLinkedListNode *node = malloc(sizeof(SingleLinkedListNode));
     node->data = element;
-    node->next = list->next;
-    list->next = node;
+    node->next = precursorNode->next;
+    precursorNode->next = node;
 }
 
-int size(SingleLinkedList list) {
-    int size = 0;
-    for (Node *node = list; node->next != NULL; node = node->next) {
-        size++;
+/**
+ * 按位删除
+ * @param singleLinkedList 单链表
+ * @param index 位置
+ */
+void singleLinkedListDelete(SingleLinkedList singleLinkedList, int index) throws INDEX_OUT_OF_RANGE_ERROR {
+    if (index < 1) {
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
-    return size;
-}
-
-void print(SingleLinkedList list) {
-    for (Node *node = list; node->next != NULL; node = node->next) {
-        printf("%d\n", node->data);
+    int i = 0;
+    SingleLinkedListNode *precursorNode = NULL;
+    for (SingleLinkedListNode *node = singleLinkedList; node != NULL && i < index; node = node->next) {
+        if (++i == index) {
+            precursorNode = node;
+            break;
+        }
     }
+    if (precursorNode == NULL || precursorNode->next == NULL) {
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
+    }
+    SingleLinkedListNode *temp = precursorNode->next;
+    precursorNode->next = temp->next;
+    free(temp);
 }
 
-SingleLinkedList mergeOrderedLinkedList(SingleLinkedList l1, SingleLinkedList l2) {
-    //返回最小的节点
-    if (l1 == NULL) {
-        return l2;
-    } else if (l2 == NULL) {
-        return l1;
-    } else if (l1->data < l2->data) {
-        l1->next = mergeOrderedLinkedList(l1->next, l2);
-        return l1;
+/**
+ * 获取索引
+ * @param list 单链表
+ * @param element 元素
+ * @return 位置
+ */
+int singleLinkedListIndexOf(SingleLinkedList list, ElementType element) {
+    int index = 1;
+    SingleLinkedListNode *node = list->next;
+    for (; node != NULL && node->data != element;) {
+        node = node->next;
+        index++;
+    }
+    if (node == NULL) {
+        return -1;
     } else {
-        l2->next = mergeOrderedLinkedList(l1, l2->next);
-        return l2;
+        return index;
     }
 }
 
-//SingleLinkedList reverseList(SingleLinkedList list) {
-//    if (list->next==NULL){
-//       return list;
-//    } else{
-//        Node * head=reverseList(list->next);
-//        for (Node * node=head;;node=node->next){
-//            if (node->next==NULL){
-//                node->next=list;
-//                break;
-//            }
-//        }
-//        list->next=NULL;
-//        return head;
-//    }
-//}
-
-SingleLinkedList reverseList(SingleLinkedList list) {
-    if (list->next == NULL) {
-        return list;
-    } else {
-        Node *head = reverseList(list->next);
-        list->next->next = list;
-        list->next = NULL;
-        return head;
+/**
+ * 获取元素
+ * @param list 单链表
+ * @param index 索引
+ * @return 元素
+ */
+ElementType
+singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR LIST_HAS_NO_ELEMENT_ERROR {
+    if (index < 1) {
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
+    int i = 1;
+    SingleLinkedListNode *node = list->next;
+    for (; node != NULL && i != index;) {
+        node = node->next;
+        i++;
+    }
+    if (node == NULL) {
+        throw Error(LIST_HAS_NO_ELEMENT_ERROR, "单链表不含该元素");
+    }
+    return node->data;
 }
+

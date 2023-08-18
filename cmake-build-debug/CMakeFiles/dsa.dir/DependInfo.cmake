@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/mnt/d/c-project/dsa/linear-structure/String.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/String.c.o"
   "/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o"
   "/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o"
+  "/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o"
   "/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o"
   "/mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o"
   "/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o"

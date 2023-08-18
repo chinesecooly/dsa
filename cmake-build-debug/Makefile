@@ -501,6 +501,33 @@ linear-structure/linked-list/single-linked-list/SingleLinkedList.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.s
 .PHONY : linear-structure/linked-list/single-linked-list/SingleLinkedList.c.s
 
+linear-structure/linked-list/static-linked-list/StaticLinkedList.o: linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o
+
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.o
+
+# target to build an object file
+linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o
+
+linear-structure/linked-list/static-linked-list/StaticLinkedList.i: linear-structure/linked-list/static-linked-list/StaticLinkedList.c.i
+
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.i
+
+# target to preprocess a source file
+linear-structure/linked-list/static-linked-list/StaticLinkedList.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.i
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.c.i
+
+linear-structure/linked-list/static-linked-list/StaticLinkedList.s: linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
+
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.s
+
+# target to generate assembly for a file
+linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
+.PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
+
 linear-structure/queue/LinkedQueue.o: linear-structure/queue/LinkedQueue.c.o
 
 .PHONY : linear-structure/queue/LinkedQueue.o
@@ -1065,6 +1092,9 @@ help:
 	@echo "... linear-structure/linked-list/single-linked-list/SingleLinkedList.o"
 	@echo "... linear-structure/linked-list/single-linked-list/SingleLinkedList.i"
 	@echo "... linear-structure/linked-list/single-linked-list/SingleLinkedList.s"
+	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.o"
+	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.i"
+	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.s"
 	@echo "... linear-structure/queue/LinkedQueue.o"
 	@echo "... linear-structure/queue/LinkedQueue.i"
 	@echo "... linear-structure/queue/LinkedQueue.s"

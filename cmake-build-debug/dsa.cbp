@@ -148,6 +148,12 @@
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h">
 			<Option target="dsa"/>
 		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c">
 			<Option target="dsa"/>
 		</Unit>
