@@ -421,31 +421,31 @@ CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedL
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c -o CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.s
 
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: CMakeFiles/dsa.dir/flags.make
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: ../linear-structure/stack/SequenceStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o   -c /mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.c
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../linear-structure/stack/sequence-stack/SequenceStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o   -c /mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c
 
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.c > CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.i
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c > CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.i
 
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.c -o CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.s
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c -o CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.s
 
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: CMakeFiles/dsa.dir/flags.make
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: ../linear-structure/stack/LinkedStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o   -c /mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.c
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../linear-structure/stack/linked-stack/LinkedStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o   -c /mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c
 
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.c > CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.i
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c > CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.i
 
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.c -o CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.s
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c -o CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.s
 
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: CMakeFiles/dsa.dir/flags.make
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../linear-structure/queue/SequenceQueue.c
@@ -499,6 +499,19 @@ CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedL
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.c -o CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
 
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o: CMakeFiles/dsa.dir/flags.make
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o: ../linear-structure/stack/shared-stack/SharedStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o   -c /mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c
+
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c > CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.i
+
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c -o CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.s
+
 # Object files for target dsa
 dsa_OBJECTS = \
 "CMakeFiles/dsa.dir/linear-structure/SqStack.c.o" \
@@ -529,12 +542,13 @@ dsa_OBJECTS = \
 "CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o" \
 "CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o" \
 "CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o" \
-"CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o" \
-"CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o" \
+"CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o" \
+"CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o" \
 "CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o" \
 "CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o" \
 "CMakeFiles/dsa.dir/main.c.o" \
-"CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o"
+"CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o" \
+"CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o"
 
 # External object files for target dsa
 dsa_EXTERNAL_OBJECTS =
@@ -567,15 +581,16 @@ dsa: CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o
-dsa: CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o
-dsa: CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o
+dsa: CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o
+dsa: CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o
 dsa: CMakeFiles/dsa.dir/main.c.o
 dsa: CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o
+dsa: CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o
 dsa: CMakeFiles/dsa.dir/build.make
 dsa: CMakeFiles/dsa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable dsa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable dsa"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dsa.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

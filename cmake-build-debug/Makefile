@@ -609,59 +609,86 @@ linear-structure/sequence-list/SequenceList.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.s
 .PHONY : linear-structure/sequence-list/SequenceList.c.s
 
-linear-structure/stack/LinkedStack.o: linear-structure/stack/LinkedStack.c.o
+linear-structure/stack/linked-stack/LinkedStack.o: linear-structure/stack/linked-stack/LinkedStack.c.o
 
-.PHONY : linear-structure/stack/LinkedStack.o
-
-# target to build an object file
-linear-structure/stack/LinkedStack.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o
-.PHONY : linear-structure/stack/LinkedStack.c.o
-
-linear-structure/stack/LinkedStack.i: linear-structure/stack/LinkedStack.c.i
-
-.PHONY : linear-structure/stack/LinkedStack.i
-
-# target to preprocess a source file
-linear-structure/stack/LinkedStack.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.i
-.PHONY : linear-structure/stack/LinkedStack.c.i
-
-linear-structure/stack/LinkedStack.s: linear-structure/stack/LinkedStack.c.s
-
-.PHONY : linear-structure/stack/LinkedStack.s
-
-# target to generate assembly for a file
-linear-structure/stack/LinkedStack.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.s
-.PHONY : linear-structure/stack/LinkedStack.c.s
-
-linear-structure/stack/SequenceStack.o: linear-structure/stack/SequenceStack.c.o
-
-.PHONY : linear-structure/stack/SequenceStack.o
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.o
 
 # target to build an object file
-linear-structure/stack/SequenceStack.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o
-.PHONY : linear-structure/stack/SequenceStack.c.o
+linear-structure/stack/linked-stack/LinkedStack.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.c.o
 
-linear-structure/stack/SequenceStack.i: linear-structure/stack/SequenceStack.c.i
+linear-structure/stack/linked-stack/LinkedStack.i: linear-structure/stack/linked-stack/LinkedStack.c.i
 
-.PHONY : linear-structure/stack/SequenceStack.i
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.i
 
 # target to preprocess a source file
-linear-structure/stack/SequenceStack.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.i
-.PHONY : linear-structure/stack/SequenceStack.c.i
+linear-structure/stack/linked-stack/LinkedStack.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.i
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.c.i
 
-linear-structure/stack/SequenceStack.s: linear-structure/stack/SequenceStack.c.s
+linear-structure/stack/linked-stack/LinkedStack.s: linear-structure/stack/linked-stack/LinkedStack.c.s
 
-.PHONY : linear-structure/stack/SequenceStack.s
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.s
 
 # target to generate assembly for a file
-linear-structure/stack/SequenceStack.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.s
-.PHONY : linear-structure/stack/SequenceStack.c.s
+linear-structure/stack/linked-stack/LinkedStack.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.s
+.PHONY : linear-structure/stack/linked-stack/LinkedStack.c.s
+
+linear-structure/stack/sequence-stack/SequenceStack.o: linear-structure/stack/sequence-stack/SequenceStack.c.o
+
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.o
+
+# target to build an object file
+linear-structure/stack/sequence-stack/SequenceStack.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.c.o
+
+linear-structure/stack/sequence-stack/SequenceStack.i: linear-structure/stack/sequence-stack/SequenceStack.c.i
+
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.i
+
+# target to preprocess a source file
+linear-structure/stack/sequence-stack/SequenceStack.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.i
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.c.i
+
+linear-structure/stack/sequence-stack/SequenceStack.s: linear-structure/stack/sequence-stack/SequenceStack.c.s
+
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.s
+
+# target to generate assembly for a file
+linear-structure/stack/sequence-stack/SequenceStack.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.s
+.PHONY : linear-structure/stack/sequence-stack/SequenceStack.c.s
+
+linear-structure/stack/shared-stack/SharedStack.o: linear-structure/stack/shared-stack/SharedStack.c.o
+
+.PHONY : linear-structure/stack/shared-stack/SharedStack.o
+
+# target to build an object file
+linear-structure/stack/shared-stack/SharedStack.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o
+.PHONY : linear-structure/stack/shared-stack/SharedStack.c.o
+
+linear-structure/stack/shared-stack/SharedStack.i: linear-structure/stack/shared-stack/SharedStack.c.i
+
+.PHONY : linear-structure/stack/shared-stack/SharedStack.i
+
+# target to preprocess a source file
+linear-structure/stack/shared-stack/SharedStack.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.i
+.PHONY : linear-structure/stack/shared-stack/SharedStack.c.i
+
+linear-structure/stack/shared-stack/SharedStack.s: linear-structure/stack/shared-stack/SharedStack.c.s
+
+.PHONY : linear-structure/stack/shared-stack/SharedStack.s
+
+# target to generate assembly for a file
+linear-structure/stack/shared-stack/SharedStack.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.s
+.PHONY : linear-structure/stack/shared-stack/SharedStack.c.s
 
 lookup-algorithm/BinarySearch.o: lookup-algorithm/BinarySearch.c.o
 
@@ -1104,12 +1131,15 @@ help:
 	@echo "... linear-structure/sequence-list/SequenceList.o"
 	@echo "... linear-structure/sequence-list/SequenceList.i"
 	@echo "... linear-structure/sequence-list/SequenceList.s"
-	@echo "... linear-structure/stack/LinkedStack.o"
-	@echo "... linear-structure/stack/LinkedStack.i"
-	@echo "... linear-structure/stack/LinkedStack.s"
-	@echo "... linear-structure/stack/SequenceStack.o"
-	@echo "... linear-structure/stack/SequenceStack.i"
-	@echo "... linear-structure/stack/SequenceStack.s"
+	@echo "... linear-structure/stack/linked-stack/LinkedStack.o"
+	@echo "... linear-structure/stack/linked-stack/LinkedStack.i"
+	@echo "... linear-structure/stack/linked-stack/LinkedStack.s"
+	@echo "... linear-structure/stack/sequence-stack/SequenceStack.o"
+	@echo "... linear-structure/stack/sequence-stack/SequenceStack.i"
+	@echo "... linear-structure/stack/sequence-stack/SequenceStack.s"
+	@echo "... linear-structure/stack/shared-stack/SharedStack.o"
+	@echo "... linear-structure/stack/shared-stack/SharedStack.i"
+	@echo "... linear-structure/stack/shared-stack/SharedStack.s"
 	@echo "... lookup-algorithm/BinarySearch.o"
 	@echo "... lookup-algorithm/BinarySearch.i"
 	@echo "... lookup-algorithm/BinarySearch.s"

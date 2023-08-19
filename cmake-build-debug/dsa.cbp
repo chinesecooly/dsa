@@ -82,6 +82,9 @@
 		<Unit filename="/mnt/d/c-project/dsa/error/Error.h">
 			<Option target="dsa"/>
 		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/error/ErrorConstant.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/graph-structure/ALGraph.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -172,16 +175,22 @@
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/LinkedStack.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/SequenceStack.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c">

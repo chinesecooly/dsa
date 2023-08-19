@@ -9,7 +9,7 @@ struct SequenceList {
 };
 
 SequenceList sequenceListConstructor() {
-    SequenceList sequenceList = malloc(sizeof(SequenceList));
+    SequenceList sequenceList = malloc(sizeof(struct SequenceList));
     sequenceList->data = calloc(MAX_SIZE, sizeof(ElementType));
     sequenceList->length = 0;
     return sequenceList;
@@ -20,12 +20,12 @@ void sequenceListDestroy(SequenceList sequenceList) {
     free(sequenceList);
 }
 
-void sequenceListInsert(SequenceList sequenceList, int index, ElementType element) throws OUT_RANGE_ERROR {
+void sequenceListInsert(SequenceList sequenceList, int index, ElementType element) throws INDEX_OUT_OF_RANGE_ERROR {
     if (sequenceList->length >= MAX_SIZE) {
-        throw Error(OUT_RANGE_ERROR, "顺序表已满");
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "顺序表已满");
     }
     if (index < 1 || index > sequenceList->length + 1) {
-        throw Error(OUT_RANGE_ERROR, "索引不合法");
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
     for (int i = sequenceList->length; i >= index; i--) {
         *(sequenceList->data + sequenceList->length) = *(sequenceList->data + sequenceList->length - 1);
@@ -36,10 +36,10 @@ void sequenceListInsert(SequenceList sequenceList, int index, ElementType elemen
 
 void sequenceListDelete(SequenceList sequenceList, int index) {
     if (sequenceList->length == 0) {
-        throw Error(OUT_RANGE_ERROR, "顺序表为空");
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "顺序表为空");
     }
     if (index < 1 || index > sequenceList->length) {
-        throw Error(OUT_RANGE_ERROR, "索引不合法");
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
     for (int i = index; i < sequenceList->length; i++) {
         *(sequenceList->data + index - 1) = *(sequenceList->data + index);
@@ -57,7 +57,7 @@ int sequenceListIndexOf(SequenceList sequenceList, ElementType element) {
 
 ElementType sequenceListGet(SequenceList sequenceList, int index) {
     if (index < 1 || index > sequenceList->length) {
-        throw Error(OUT_RANGE_ERROR, "索引不合法");
+        throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
     return *(sequenceList->data + index - 1);
 }

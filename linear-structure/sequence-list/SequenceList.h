@@ -7,8 +7,6 @@
 
 #include "../../util/Util.h"
 
-#define OUT_RANGE_ERROR
-
 //顺序表
 typedef struct SequenceList *SequenceList;
 
@@ -19,7 +17,7 @@ SequenceList sequenceListConstructor();
 void sequenceListDestroy(SequenceList);
 
 //插入元素
-void sequenceListInsert(SequenceList, int, ElementType) throws OUT_RANGE_ERROR;
+void sequenceListInsert(SequenceList, int, ElementType) throws INDEX_OUT_OF_RANGE_ERROR;
 
 //删除元素
 void sequenceListDelete(SequenceList, int);

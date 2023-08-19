@@ -17,42 +17,34 @@ string.h
 -
 stdio.h
 -
+ErrorConstant.h
+/mnt/d/c-project/dsa/error/ErrorConstant.h
 
-/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c
-DoubleLinkedList.h
-/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.h
+/mnt/d/c-project/dsa/error/ErrorConstant.h
 
-/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.h
+/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c
+LinkedStack.h
+/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h
+
+/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h
+../../../error/Error.h
+/mnt/d/c-project/dsa/error/Error.h
 ../../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.c
-SingleLinkedList.h
-/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
+/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c
+SequenceStack.h
+/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h
 
-/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
+/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h
 ../../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c
-SequenceList.h
-/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
+/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c
+SharedStack.h
+/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h
 
-/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
-../../util/Util.h
-/mnt/d/c-project/dsa/util/Util.h
-
-/mnt/d/c-project/dsa/main.c
-linear-structure/sequence-list/SequenceList.h
-/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
-
-/mnt/d/c-project/dsa/tree-structure/CTree.c
-CTree.h
-/mnt/d/c-project/dsa/tree-structure/CTree.h
-../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
-/mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
-
-/mnt/d/c-project/dsa/tree-structure/CTree.h
+/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h
 
 /mnt/d/c-project/dsa/util/Util.h
 stddef.h

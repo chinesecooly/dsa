@@ -3,6 +3,7 @@
 
 CMakeFiles/dsa.dir/error/Error.c.o: ../error/Error.c
 CMakeFiles/dsa.dir/error/Error.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/error/Error.c.o: ../error/ErrorConstant.h
 
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o: ../graph-structure/ALGraph.c
 CMakeFiles/dsa.dir/graph-structure/ALGraph.c.o: ../graph-structure/ALGraph.h
@@ -11,6 +12,7 @@ CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o: ../graph-structure/AMLGraph.c
 CMakeFiles/dsa.dir/graph-structure/AMLGraph.c.o: ../graph-structure/AMLGraph.h
 
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../graph-structure/MGraph.c
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../graph-structure/MGraph.h
 CMakeFiles/dsa.dir/graph-structure/MGraph.c.o: ../linear-structure/LinkQueue.h
@@ -22,6 +24,7 @@ CMakeFiles/dsa.dir/graph-structure/UFSet.c.o: ../graph-structure/UFSet.c
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.o: ../graph-structure/UFSet.h
 
 CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o: ../linear-structure/LinkQueue.c
 CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o: ../linear-structure/LinkQueue.h
 
@@ -37,36 +40,51 @@ CMakeFiles/dsa.dir/linear-structure/SqStack.c.o: ../linear-structure/SqStack.c
 CMakeFiles/dsa.dir/linear-structure/String.c.o: ../linear-structure/String.c
 
 CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o: ../linear-structure/linked-list/double-linked-list/DoubleLinkedList.c
 CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o: ../linear-structure/linked-list/double-linked-list/DoubleLinkedList.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o: ../util/Util.h
 
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.c
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o: ../util/Util.h
 
+CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o: ../linear-structure/linked-list/static-linked-list/StaticLinkedList.c
+CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o: ../linear-structure/linked-list/static-linked-list/StaticLinkedList.h
+CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o: ../util/Util.h
+
 CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o: ../linear-structure/queue/LinkedQueue.c
 
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../linear-structure/queue/SequenceQueue.c
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../linear-structure/queue/SequenceQueue.h
 CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o: ../util/Util.h
 
 CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o: ../linear-structure/sequence-list/SequenceList.c
 CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o: ../linear-structure/sequence-list/SequenceList.h
 CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o: ../util/Util.h
 
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: ../error/Error.h
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: ../linear-structure/stack/LinkedStack.c
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: ../linear-structure/stack/LinkedStack.h
-CMakeFiles/dsa.dir/linear-structure/stack/LinkedStack.c.o: ../util/Util.h
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../linear-structure/stack/linked-stack/LinkedStack.c
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../linear-structure/stack/linked-stack/LinkedStack.h
+CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o: ../util/Util.h
 
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: ../error/Error.h
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: ../linear-structure/stack/SequenceStack.c
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: ../linear-structure/stack/SequenceStack.h
-CMakeFiles/dsa.dir/linear-structure/stack/SequenceStack.c.o: ../util/Util.h
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../linear-structure/stack/sequence-stack/SequenceStack.c
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../linear-structure/stack/sequence-stack/SequenceStack.h
+CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o: ../util/Util.h
+
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o: ../linear-structure/stack/shared-stack/SharedStack.c
+CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o: ../linear-structure/stack/shared-stack/SharedStack.h
 
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o: ../lookup-algorithm/BinarySearch.c
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o: ../lookup-algorithm/BinarySearch.h
@@ -75,6 +93,7 @@ CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o: ../lookup-algorithm/SeqSearch
 CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o: ../lookup-algorithm/SeqSearch.h
 
 CMakeFiles/dsa.dir/main.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/main.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/main.c.o: ../linear-structure/sequence-list/SequenceList.h
 CMakeFiles/dsa.dir/main.c.o: ../main.c
 CMakeFiles/dsa.dir/main.c.o: ../util/Util.h
@@ -95,6 +114,7 @@ CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: ../tree-structure/BSTree.c
 CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: ../tree-structure/BSTree.h
 
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../linear-structure/LinkQueue.h
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../tree-structure/BiTree.c
 CMakeFiles/dsa.dir/tree-structure/BiTree.c.o: ../tree-structure/BiTree.h
@@ -103,6 +123,7 @@ CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: ../tree-structure/CSTree.c
 CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: ../tree-structure/CSTree.h
 
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../tree-structure/CTree.c
 CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../tree-structure/CTree.h

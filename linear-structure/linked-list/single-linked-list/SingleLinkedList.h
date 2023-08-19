@@ -5,9 +5,6 @@
 #ifndef DSA_SINGLELINKEDLIST_H
 #define DSA_SINGLELINKEDLIST_H
 
-#define LIST_HAS_NO_ELEMENT_ERROR
-#define INDEX_OUT_OF_RANGE_ERROR
-
 #include "../../../util/Util.h"
 
 typedef struct SingleLinkedListNode SingleLinkedListNode, *SingleLinkedList;
@@ -59,6 +56,6 @@ int singleLinkedListIndexOf(SingleLinkedList list, ElementType element);
  * @return 元素
  */
 ElementType
-singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR LIST_HAS_NO_ELEMENT_ERROR;
+singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR HAS_NO_ELEMENT_ERROR;
 
 #endif //DSA_SINGLELINKEDLIST_H

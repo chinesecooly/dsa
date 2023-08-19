@@ -77,7 +77,8 @@
 				57,
 				59,
 				61,
-				62
+				62,
+				65
 			]
 		}
 	],
@@ -143,7 +144,8 @@
 				57,
 				59,
 				61,
-				62
+				62,
+				65
 			]
 		},
 		{
@@ -179,7 +181,9 @@
 				56,
 				58,
 				60,
-				63
+				63,
+				64,
+				66
 			]
 		}
 	],
@@ -481,23 +485,23 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linear-structure/stack/SequenceStack.c",
+			"path" : "linear-structure/stack/sequence-stack/SequenceStack.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "linear-structure/stack/SequenceStack.h",
+			"path" : "linear-structure/stack/sequence-stack/SequenceStack.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linear-structure/stack/LinkedStack.c",
+			"path" : "linear-structure/stack/linked-stack/LinkedStack.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "linear-structure/stack/LinkedStack.h",
+			"path" : "linear-structure/stack/linked-stack/LinkedStack.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -537,6 +541,22 @@
 		{
 			"backtrace" : 1,
 			"path" : "linear-structure/linked-list/static-linked-list/StaticLinkedList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "error/ErrorConstant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "linear-structure/stack/shared-stack/SharedStack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "linear-structure/stack/shared-stack/SharedStack.h",
 			"sourceGroupIndex" : 1
 		}
 	],

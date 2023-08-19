@@ -10,6 +10,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
+#include "ErrorConstant.h"
 
 #define try if(!(setjmp(env)))
 #define catch(TYPE) else if(strcmp(#TYPE,error.type)==0)

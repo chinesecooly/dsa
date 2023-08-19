@@ -134,7 +134,7 @@ int singleLinkedListIndexOf(SingleLinkedList list, ElementType element) {
  * @return 元素
  */
 ElementType
-singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR LIST_HAS_NO_ELEMENT_ERROR {
+singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR HAS_NO_ELEMENT_ERROR {
     if (index < 1) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
@@ -145,7 +145,7 @@ singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_
         i++;
     }
     if (node == NULL) {
-        throw Error(LIST_HAS_NO_ELEMENT_ERROR, "单链表不含该元素");
+        throw Error(HAS_NO_ELEMENT_ERROR, "单链表不含该元素");
     }
     return node->data;
 }
