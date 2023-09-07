@@ -22,29 +22,37 @@ ErrorConstant.h
 
 /mnt/d/c-project/dsa/error/ErrorConstant.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c
-LinkedStack.h
-/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h
+/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.c
+StaticLinkedList.h
+/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h
-../../../error/Error.h
-/mnt/d/c-project/dsa/error/Error.h
+/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.h
 ../../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c
-SequenceStack.h
-/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h
+/mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.c
+SequenceQueue.h
+/mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h
+/mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.h
 ../../../util/Util.h
 /mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c
-SharedStack.h
-/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
+../../util/Util.h
+/mnt/d/c-project/dsa/util/Util.h
 
-/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h
+/mnt/d/c-project/dsa/main.c
+linear-structure/sequence-list/SequenceList.h
+/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
+
+/mnt/d/c-project/dsa/packaging-type/PackagingType.h
+stdbool.h
+-
+stdarg.h
+-
+stdlib.h
+-
 
 /mnt/d/c-project/dsa/util/Util.h
 stddef.h
@@ -57,4 +65,6 @@ stdbool.h
 -
 ../error/Error.h
 /mnt/d/c-project/dsa/error/Error.h
+../packaging-type/PackagingType.h
+/mnt/d/c-project/dsa/packaging-type/PackagingType.h
 

@@ -16,76 +16,84 @@ CMakeFiles/dsa.dir/graph-structure/MGraph.c.o
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/graph-structure/MGraph.c
  /mnt/d/c-project/dsa/graph-structure/MGraph.h
- /mnt/d/c-project/dsa/linear-structure/LinkQueue.h
+ /mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/graph-structure/OLGraph.c.o
  /mnt/d/c-project/dsa/graph-structure/OLGraph.c
  /mnt/d/c-project/dsa/graph-structure/OLGraph.h
 CMakeFiles/dsa.dir/graph-structure/UFSet.c.o
  /mnt/d/c-project/dsa/graph-structure/UFSet.c
  /mnt/d/c-project/dsa/graph-structure/UFSet.h
-CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o
- /mnt/d/c-project/dsa/error/Error.h
- /mnt/d/c-project/dsa/error/ErrorConstant.h
- /mnt/d/c-project/dsa/linear-structure/LinkQueue.c
- /mnt/d/c-project/dsa/linear-structure/LinkQueue.h
-CMakeFiles/dsa.dir/linear-structure/LinkStack.c.o
- /mnt/d/c-project/dsa/linear-structure/LinkStack.c
-CMakeFiles/dsa.dir/linear-structure/PriorityQueue.c.o
- /mnt/d/c-project/dsa/linear-structure/PriorityQueue.c
- /mnt/d/c-project/dsa/linear-structure/PriorityQueue.h
-CMakeFiles/dsa.dir/linear-structure/SqQueue.c.o
- /mnt/d/c-project/dsa/linear-structure/SqQueue.c
-CMakeFiles/dsa.dir/linear-structure/SqStack.c.o
- /mnt/d/c-project/dsa/linear-structure/SqStack.c
-CMakeFiles/dsa.dir/linear-structure/String.c.o
- /mnt/d/c-project/dsa/linear-structure/String.c
 CMakeFiles/dsa.dir/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c
  /mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/single-linked-list/SingleLinkedList.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.c
  /mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.c
  /mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
-CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o
- /mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c
-CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o
+CMakeFiles/dsa.dir/linear-structure/queue/linked-queue/LinkedQueue.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
- /mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.c
- /mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.h
+ /mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.c
+ /mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/linear-structure/queue/priority-queue/PriorityQueue.c.o
+ /mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.c
+ /mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.h
+CMakeFiles/dsa.dir/linear-structure/queue/sequence-queue/SequenceQueue.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.c
+ /mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/sequence-list/SequenceList.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c
  /mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/stack/linked-stack/LinkedStack.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.c
  /mnt/d/c-project/dsa/linear-structure/stack/linked-stack/LinkedStack.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/stack/sequence-stack/SequenceStack.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.c
  /mnt/d/c-project/dsa/linear-structure/stack/sequence-stack/SequenceStack.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.o
  /mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.c
  /mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h
+CMakeFiles/dsa.dir/linear-structure/string/String.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/linear-structure/string/String.c
+ /mnt/d/c-project/dsa/linear-structure/string/String.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o
  /mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c
  /mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.h
@@ -97,7 +105,11 @@ CMakeFiles/dsa.dir/main.c.o
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.h
  /mnt/d/c-project/dsa/main.c
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.c
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.c
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.h
@@ -113,12 +125,6 @@ CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o
 CMakeFiles/dsa.dir/tree-structure/BSTree.c.o
  /mnt/d/c-project/dsa/tree-structure/BSTree.c
  /mnt/d/c-project/dsa/tree-structure/BSTree.h
-CMakeFiles/dsa.dir/tree-structure/BiTree.c.o
- /mnt/d/c-project/dsa/error/Error.h
- /mnt/d/c-project/dsa/error/ErrorConstant.h
- /mnt/d/c-project/dsa/linear-structure/LinkQueue.h
- /mnt/d/c-project/dsa/tree-structure/BiTree.c
- /mnt/d/c-project/dsa/tree-structure/BiTree.h
 CMakeFiles/dsa.dir/tree-structure/CSTree.c.o
  /mnt/d/c-project/dsa/tree-structure/CSTree.c
  /mnt/d/c-project/dsa/tree-structure/CSTree.h
@@ -126,11 +132,12 @@ CMakeFiles/dsa.dir/tree-structure/CTree.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
  /mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/tree-structure/CTree.c
  /mnt/d/c-project/dsa/tree-structure/CTree.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/tree-structure/HTree.c.o
- /mnt/d/c-project/dsa/linear-structure/PriorityQueue.h
+ /mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.h
  /mnt/d/c-project/dsa/tree-structure/HTree.c
  /mnt/d/c-project/dsa/tree-structure/HTree.h
 CMakeFiles/dsa.dir/tree-structure/PTree.c.o
@@ -139,3 +146,17 @@ CMakeFiles/dsa.dir/tree-structure/PTree.c.o
 CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o
  /mnt/d/c-project/dsa/tree-structure/ThreadTree.c
  /mnt/d/c-project/dsa/tree-structure/ThreadTree.h
+CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.c
+ /mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o
+ /mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.c
+ /mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.h
+CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
+ /mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c
+ /mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.h

@@ -4,18 +4,20 @@
 #include "SequenceStack.h"
 
 struct SequenceStack {
-    ElementType *data;
+    void **data;
     int top;
+    int size;
 };
 
 /**
  * 构造站
  * @return
  */
-SequenceStack sequenceStackConstructor() {
+SequenceStack sequenceStackConstructor(int size) {
     SequenceStack stack = malloc(sizeof(struct SequenceStack));
-    stack->data = calloc(MAX_SIZE, sizeof(ElementType));
+    stack->data = calloc(size, sizeof(void *));
     stack->top = 0;
+    stack->size = size;
     return stack;
 }
 
@@ -33,8 +35,8 @@ void sequenceStackDestroy(SequenceStack stack) {
  * @param stack
  * @param element
  */
-void sequenceStackPush(SequenceStack stack, ElementType element) throws FULL_ERROR {
-    if (stack->top == MAX_SIZE) {
+void sequenceStackPush(SequenceStack stack, void *element) throws FULL_ERROR {
+    if (stack->top == stack->size) {
         throw Error(FULL_ERROR, "栈已满");
     }
     *(stack->data + stack->top) = element;
@@ -46,7 +48,7 @@ void sequenceStackPush(SequenceStack stack, ElementType element) throws FULL_ERR
  * @param stack
  * @return
  */
-ElementType sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR{
+void *sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR {
     if (stack->top == 0) {
         throw Error(EMPTY_ERROR, "栈为空");
     }
@@ -59,7 +61,7 @@ ElementType sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR{
  * @param stack
  * @return
  */
-ElementType sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR{
+void *sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR {
     if (stack->top == 0) {
         throw Error(EMPTY_ERROR, "栈为空");
     }

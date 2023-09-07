@@ -4,7 +4,7 @@
 #include "DoubleLinkedList.h"
 
 struct DoubleLinkedListNode {
-    ElementType data;
+    void * data;
     struct DoubleLinkedListNode *prior;
     struct DoubleLinkedListNode *next;
 };

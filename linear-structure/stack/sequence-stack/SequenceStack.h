@@ -26,20 +26,20 @@ void sequenceStackDestroy(SequenceStack stack);
  * @param stack
  * @param element
  */
-void sequenceStackPush(SequenceStack stack, ElementType element) throws FULL_ERROR;
+void sequenceStackPush(SequenceStack stack, void * element) throws FULL_ERROR;
 
 /**
  * 出栈
  * @param stack
  * @return
  */
-ElementType sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR;
+void * sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR;
 
 /**
  * 查看栈顶元素
  * @param stack
  * @return
  */
-ElementType sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR;
+void * sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR;
 
 #endif //DSA_SEQUENCESTACK_H

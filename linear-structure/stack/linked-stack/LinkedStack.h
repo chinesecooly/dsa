@@ -5,7 +5,6 @@
 #ifndef DSA_LINKEDSTACK_H
 #define DSA_LINKEDSTACK_H
 
-#include "../../../error/Error.h"
 #include "../../../util/Util.h"
 
 typedef struct LinkedStackNode LinkedStackNode, *LinkedStack;

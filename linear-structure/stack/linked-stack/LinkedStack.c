@@ -5,7 +5,7 @@
 #include "LinkedStack.h"
 
 struct LinkedStackNode {
-    ElementType data;
+    void * data;
     struct LinkedStackNode *next;
 };
 

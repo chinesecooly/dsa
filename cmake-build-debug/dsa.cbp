@@ -115,30 +115,6 @@
 		<Unit filename="/mnt/d/c-project/dsa/graph-structure/UFSet.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkQueue.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/LinkStack.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/PriorityQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/PriorityQueue.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/SqQueue.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/SqStack.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/String.c">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/double-linked-list/DoubleLinkedList.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -157,16 +133,22 @@
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/linked-list/static-linked-list/StaticLinkedList.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/LinkedQueue.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/linked-queue/LinkedQueue.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.c">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/SequenceQueue.h">
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/queue/sequence-queue/SequenceQueue.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/sequence-list/SequenceList.c">
@@ -193,6 +175,12 @@
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/stack/shared-stack/SharedStack.h">
 			<Option target="dsa"/>
 		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/string/String.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/linear-structure/string/String.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -206,6 +194,12 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/main.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/packaging-type/PackagingType.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/packaging-type/PackagingType.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/sort-algorithm/InsertSort.c">
@@ -238,12 +232,6 @@
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/BSTree.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/BiTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/BiTree.h">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/CSTree.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -272,6 +260,24 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/ThreadTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/util/Util.h">

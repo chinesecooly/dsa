@@ -5,7 +5,7 @@
 #include "StaticLinkedList.h"
 
 struct StaticLinkedListNode {
-    ElementType data;
+    void * data;
     int next;
 };
 
@@ -13,7 +13,7 @@ struct StaticLinkedListNode {
  * 静态链表构造函数
  * @return
  */
-StaticLinkedList staticLinkedListConstructor() {
-    StaticLinkedList list = calloc(MAX_SIZE, sizeof(struct StaticLinkedListNode));
+StaticLinkedList staticLinkedListConstructor(int size) {
+    StaticLinkedList list = calloc(size, sizeof(struct StaticLinkedListNode));
     return list;
 }

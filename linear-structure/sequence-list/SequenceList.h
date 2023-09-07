@@ -10,22 +10,49 @@
 //顺序表
 typedef struct SequenceList *SequenceList;
 
-//初始化表
-SequenceList sequenceListConstructor();
+/**
+ * 构造函数
+ * @param size
+ * @param compare
+ * @return
+ */
+SequenceList sequenceListConstructor(int size, int (*compare)(void *, void *));
 
-//销毁表
-void sequenceListDestroy(SequenceList);
+/**
+ * 销毁
+ * @param sequenceList
+ */
+void sequenceListDestroy(SequenceList sequenceList);
 
-//插入元素
-void sequenceListInsert(SequenceList, int, ElementType) throws INDEX_OUT_OF_RANGE_ERROR;
+/**
+ * 插入
+ * @param sequenceList
+ * @param index
+ * @param element
+ */
+void sequenceListInsert(SequenceList sequenceList, int index, void *element) throws INDEX_OUT_OF_RANGE_ERROR;
 
-//删除元素
-void sequenceListDelete(SequenceList, int);
+/**
+ * 删除
+ * @param sequenceList
+ * @param index
+ */
+void sequenceListDelete(SequenceList sequenceList, int index);
 
-//查找下标
-int sequenceListIndexOf(SequenceList, ElementType);
+/**
+ * 查找下标
+ * @param sequenceList
+ * @param element
+ * @return
+ */
+int sequenceListIndexOf(SequenceList sequenceList, void *element);
 
-//按位查找
-ElementType sequenceListGet(SequenceList, int);
+/**
+ * 获取元素
+ * @param sequenceList
+ * @param index
+ * @return
+ */
+void *sequenceListGet(SequenceList sequenceList, int index);
 
 #endif //DSA_SEQUENCELIST_H

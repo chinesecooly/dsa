@@ -285,168 +285,6 @@ graph-structure/UFSet.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/graph-structure/UFSet.c.s
 .PHONY : graph-structure/UFSet.c.s
 
-linear-structure/LinkQueue.o: linear-structure/LinkQueue.c.o
-
-.PHONY : linear-structure/LinkQueue.o
-
-# target to build an object file
-linear-structure/LinkQueue.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.o
-.PHONY : linear-structure/LinkQueue.c.o
-
-linear-structure/LinkQueue.i: linear-structure/LinkQueue.c.i
-
-.PHONY : linear-structure/LinkQueue.i
-
-# target to preprocess a source file
-linear-structure/LinkQueue.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.i
-.PHONY : linear-structure/LinkQueue.c.i
-
-linear-structure/LinkQueue.s: linear-structure/LinkQueue.c.s
-
-.PHONY : linear-structure/LinkQueue.s
-
-# target to generate assembly for a file
-linear-structure/LinkQueue.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkQueue.c.s
-.PHONY : linear-structure/LinkQueue.c.s
-
-linear-structure/LinkStack.o: linear-structure/LinkStack.c.o
-
-.PHONY : linear-structure/LinkStack.o
-
-# target to build an object file
-linear-structure/LinkStack.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkStack.c.o
-.PHONY : linear-structure/LinkStack.c.o
-
-linear-structure/LinkStack.i: linear-structure/LinkStack.c.i
-
-.PHONY : linear-structure/LinkStack.i
-
-# target to preprocess a source file
-linear-structure/LinkStack.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkStack.c.i
-.PHONY : linear-structure/LinkStack.c.i
-
-linear-structure/LinkStack.s: linear-structure/LinkStack.c.s
-
-.PHONY : linear-structure/LinkStack.s
-
-# target to generate assembly for a file
-linear-structure/LinkStack.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/LinkStack.c.s
-.PHONY : linear-structure/LinkStack.c.s
-
-linear-structure/PriorityQueue.o: linear-structure/PriorityQueue.c.o
-
-.PHONY : linear-structure/PriorityQueue.o
-
-# target to build an object file
-linear-structure/PriorityQueue.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/PriorityQueue.c.o
-.PHONY : linear-structure/PriorityQueue.c.o
-
-linear-structure/PriorityQueue.i: linear-structure/PriorityQueue.c.i
-
-.PHONY : linear-structure/PriorityQueue.i
-
-# target to preprocess a source file
-linear-structure/PriorityQueue.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/PriorityQueue.c.i
-.PHONY : linear-structure/PriorityQueue.c.i
-
-linear-structure/PriorityQueue.s: linear-structure/PriorityQueue.c.s
-
-.PHONY : linear-structure/PriorityQueue.s
-
-# target to generate assembly for a file
-linear-structure/PriorityQueue.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/PriorityQueue.c.s
-.PHONY : linear-structure/PriorityQueue.c.s
-
-linear-structure/SqQueue.o: linear-structure/SqQueue.c.o
-
-.PHONY : linear-structure/SqQueue.o
-
-# target to build an object file
-linear-structure/SqQueue.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqQueue.c.o
-.PHONY : linear-structure/SqQueue.c.o
-
-linear-structure/SqQueue.i: linear-structure/SqQueue.c.i
-
-.PHONY : linear-structure/SqQueue.i
-
-# target to preprocess a source file
-linear-structure/SqQueue.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqQueue.c.i
-.PHONY : linear-structure/SqQueue.c.i
-
-linear-structure/SqQueue.s: linear-structure/SqQueue.c.s
-
-.PHONY : linear-structure/SqQueue.s
-
-# target to generate assembly for a file
-linear-structure/SqQueue.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqQueue.c.s
-.PHONY : linear-structure/SqQueue.c.s
-
-linear-structure/SqStack.o: linear-structure/SqStack.c.o
-
-.PHONY : linear-structure/SqStack.o
-
-# target to build an object file
-linear-structure/SqStack.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqStack.c.o
-.PHONY : linear-structure/SqStack.c.o
-
-linear-structure/SqStack.i: linear-structure/SqStack.c.i
-
-.PHONY : linear-structure/SqStack.i
-
-# target to preprocess a source file
-linear-structure/SqStack.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqStack.c.i
-.PHONY : linear-structure/SqStack.c.i
-
-linear-structure/SqStack.s: linear-structure/SqStack.c.s
-
-.PHONY : linear-structure/SqStack.s
-
-# target to generate assembly for a file
-linear-structure/SqStack.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/SqStack.c.s
-.PHONY : linear-structure/SqStack.c.s
-
-linear-structure/String.o: linear-structure/String.c.o
-
-.PHONY : linear-structure/String.o
-
-# target to build an object file
-linear-structure/String.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/String.c.o
-.PHONY : linear-structure/String.c.o
-
-linear-structure/String.i: linear-structure/String.c.i
-
-.PHONY : linear-structure/String.i
-
-# target to preprocess a source file
-linear-structure/String.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/String.c.i
-.PHONY : linear-structure/String.c.i
-
-linear-structure/String.s: linear-structure/String.c.s
-
-.PHONY : linear-structure/String.s
-
-# target to generate assembly for a file
-linear-structure/String.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/String.c.s
-.PHONY : linear-structure/String.c.s
-
 linear-structure/linked-list/double-linked-list/DoubleLinkedList.o: linear-structure/linked-list/double-linked-list/DoubleLinkedList.c.o
 
 .PHONY : linear-structure/linked-list/double-linked-list/DoubleLinkedList.o
@@ -528,59 +366,86 @@ linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
 .PHONY : linear-structure/linked-list/static-linked-list/StaticLinkedList.c.s
 
-linear-structure/queue/LinkedQueue.o: linear-structure/queue/LinkedQueue.c.o
+linear-structure/queue/linked-queue/LinkedQueue.o: linear-structure/queue/linked-queue/LinkedQueue.c.o
 
-.PHONY : linear-structure/queue/LinkedQueue.o
-
-# target to build an object file
-linear-structure/queue/LinkedQueue.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.o
-.PHONY : linear-structure/queue/LinkedQueue.c.o
-
-linear-structure/queue/LinkedQueue.i: linear-structure/queue/LinkedQueue.c.i
-
-.PHONY : linear-structure/queue/LinkedQueue.i
-
-# target to preprocess a source file
-linear-structure/queue/LinkedQueue.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.i
-.PHONY : linear-structure/queue/LinkedQueue.c.i
-
-linear-structure/queue/LinkedQueue.s: linear-structure/queue/LinkedQueue.c.s
-
-.PHONY : linear-structure/queue/LinkedQueue.s
-
-# target to generate assembly for a file
-linear-structure/queue/LinkedQueue.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/LinkedQueue.c.s
-.PHONY : linear-structure/queue/LinkedQueue.c.s
-
-linear-structure/queue/SequenceQueue.o: linear-structure/queue/SequenceQueue.c.o
-
-.PHONY : linear-structure/queue/SequenceQueue.o
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.o
 
 # target to build an object file
-linear-structure/queue/SequenceQueue.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.o
-.PHONY : linear-structure/queue/SequenceQueue.c.o
+linear-structure/queue/linked-queue/LinkedQueue.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/linked-queue/LinkedQueue.c.o
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.c.o
 
-linear-structure/queue/SequenceQueue.i: linear-structure/queue/SequenceQueue.c.i
+linear-structure/queue/linked-queue/LinkedQueue.i: linear-structure/queue/linked-queue/LinkedQueue.c.i
 
-.PHONY : linear-structure/queue/SequenceQueue.i
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.i
 
 # target to preprocess a source file
-linear-structure/queue/SequenceQueue.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.i
-.PHONY : linear-structure/queue/SequenceQueue.c.i
+linear-structure/queue/linked-queue/LinkedQueue.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/linked-queue/LinkedQueue.c.i
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.c.i
 
-linear-structure/queue/SequenceQueue.s: linear-structure/queue/SequenceQueue.c.s
+linear-structure/queue/linked-queue/LinkedQueue.s: linear-structure/queue/linked-queue/LinkedQueue.c.s
 
-.PHONY : linear-structure/queue/SequenceQueue.s
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.s
 
 # target to generate assembly for a file
-linear-structure/queue/SequenceQueue.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/SequenceQueue.c.s
-.PHONY : linear-structure/queue/SequenceQueue.c.s
+linear-structure/queue/linked-queue/LinkedQueue.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/linked-queue/LinkedQueue.c.s
+.PHONY : linear-structure/queue/linked-queue/LinkedQueue.c.s
+
+linear-structure/queue/priority-queue/PriorityQueue.o: linear-structure/queue/priority-queue/PriorityQueue.c.o
+
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.o
+
+# target to build an object file
+linear-structure/queue/priority-queue/PriorityQueue.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/priority-queue/PriorityQueue.c.o
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.c.o
+
+linear-structure/queue/priority-queue/PriorityQueue.i: linear-structure/queue/priority-queue/PriorityQueue.c.i
+
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.i
+
+# target to preprocess a source file
+linear-structure/queue/priority-queue/PriorityQueue.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/priority-queue/PriorityQueue.c.i
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.c.i
+
+linear-structure/queue/priority-queue/PriorityQueue.s: linear-structure/queue/priority-queue/PriorityQueue.c.s
+
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.s
+
+# target to generate assembly for a file
+linear-structure/queue/priority-queue/PriorityQueue.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/priority-queue/PriorityQueue.c.s
+.PHONY : linear-structure/queue/priority-queue/PriorityQueue.c.s
+
+linear-structure/queue/sequence-queue/SequenceQueue.o: linear-structure/queue/sequence-queue/SequenceQueue.c.o
+
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.o
+
+# target to build an object file
+linear-structure/queue/sequence-queue/SequenceQueue.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/sequence-queue/SequenceQueue.c.o
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.c.o
+
+linear-structure/queue/sequence-queue/SequenceQueue.i: linear-structure/queue/sequence-queue/SequenceQueue.c.i
+
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.i
+
+# target to preprocess a source file
+linear-structure/queue/sequence-queue/SequenceQueue.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/sequence-queue/SequenceQueue.c.i
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.c.i
+
+linear-structure/queue/sequence-queue/SequenceQueue.s: linear-structure/queue/sequence-queue/SequenceQueue.c.s
+
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.s
+
+# target to generate assembly for a file
+linear-structure/queue/sequence-queue/SequenceQueue.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/queue/sequence-queue/SequenceQueue.c.s
+.PHONY : linear-structure/queue/sequence-queue/SequenceQueue.c.s
 
 linear-structure/sequence-list/SequenceList.o: linear-structure/sequence-list/SequenceList.c.o
 
@@ -690,6 +555,33 @@ linear-structure/stack/shared-stack/SharedStack.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/stack/shared-stack/SharedStack.c.s
 .PHONY : linear-structure/stack/shared-stack/SharedStack.c.s
 
+linear-structure/string/String.o: linear-structure/string/String.c.o
+
+.PHONY : linear-structure/string/String.o
+
+# target to build an object file
+linear-structure/string/String.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/string/String.c.o
+.PHONY : linear-structure/string/String.c.o
+
+linear-structure/string/String.i: linear-structure/string/String.c.i
+
+.PHONY : linear-structure/string/String.i
+
+# target to preprocess a source file
+linear-structure/string/String.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/string/String.c.i
+.PHONY : linear-structure/string/String.c.i
+
+linear-structure/string/String.s: linear-structure/string/String.c.s
+
+.PHONY : linear-structure/string/String.s
+
+# target to generate assembly for a file
+linear-structure/string/String.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/string/String.c.s
+.PHONY : linear-structure/string/String.c.s
+
 lookup-algorithm/BinarySearch.o: lookup-algorithm/BinarySearch.c.o
 
 .PHONY : lookup-algorithm/BinarySearch.o
@@ -770,6 +662,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/main.c.s
 .PHONY : main.c.s
+
+packaging-type/PackagingType.o: packaging-type/PackagingType.c.o
+
+.PHONY : packaging-type/PackagingType.o
+
+# target to build an object file
+packaging-type/PackagingType.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o
+.PHONY : packaging-type/PackagingType.c.o
+
+packaging-type/PackagingType.i: packaging-type/PackagingType.c.i
+
+.PHONY : packaging-type/PackagingType.i
+
+# target to preprocess a source file
+packaging-type/PackagingType.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.i
+.PHONY : packaging-type/PackagingType.c.i
+
+packaging-type/PackagingType.s: packaging-type/PackagingType.c.s
+
+.PHONY : packaging-type/PackagingType.s
+
+# target to generate assembly for a file
+packaging-type/PackagingType.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.s
+.PHONY : packaging-type/PackagingType.c.s
 
 sort-algorithm/InsertSort.o: sort-algorithm/InsertSort.c.o
 
@@ -906,33 +825,6 @@ tree-structure/BSTree.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BSTree.c.s
 .PHONY : tree-structure/BSTree.c.s
 
-tree-structure/BiTree.o: tree-structure/BiTree.c.o
-
-.PHONY : tree-structure/BiTree.o
-
-# target to build an object file
-tree-structure/BiTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BiTree.c.o
-.PHONY : tree-structure/BiTree.c.o
-
-tree-structure/BiTree.i: tree-structure/BiTree.c.i
-
-.PHONY : tree-structure/BiTree.i
-
-# target to preprocess a source file
-tree-structure/BiTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BiTree.c.i
-.PHONY : tree-structure/BiTree.c.i
-
-tree-structure/BiTree.s: tree-structure/BiTree.c.s
-
-.PHONY : tree-structure/BiTree.s
-
-# target to generate assembly for a file
-tree-structure/BiTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BiTree.c.s
-.PHONY : tree-structure/BiTree.c.s
-
 tree-structure/CSTree.o: tree-structure/CSTree.c.o
 
 .PHONY : tree-structure/CSTree.o
@@ -1068,6 +960,87 @@ tree-structure/ThreadTree.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.s
 .PHONY : tree-structure/ThreadTree.c.s
 
+tree-structure/binary-tree/BinaryTree.o: tree-structure/binary-tree/BinaryTree.c.o
+
+.PHONY : tree-structure/binary-tree/BinaryTree.o
+
+# target to build an object file
+tree-structure/binary-tree/BinaryTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o
+.PHONY : tree-structure/binary-tree/BinaryTree.c.o
+
+tree-structure/binary-tree/BinaryTree.i: tree-structure/binary-tree/BinaryTree.c.i
+
+.PHONY : tree-structure/binary-tree/BinaryTree.i
+
+# target to preprocess a source file
+tree-structure/binary-tree/BinaryTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.i
+.PHONY : tree-structure/binary-tree/BinaryTree.c.i
+
+tree-structure/binary-tree/BinaryTree.s: tree-structure/binary-tree/BinaryTree.c.s
+
+.PHONY : tree-structure/binary-tree/BinaryTree.s
+
+# target to generate assembly for a file
+tree-structure/binary-tree/BinaryTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.s
+.PHONY : tree-structure/binary-tree/BinaryTree.c.s
+
+tree-structure/huffman-tree/HuffmanTree.o: tree-structure/huffman-tree/HuffmanTree.c.o
+
+.PHONY : tree-structure/huffman-tree/HuffmanTree.o
+
+# target to build an object file
+tree-structure/huffman-tree/HuffmanTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o
+.PHONY : tree-structure/huffman-tree/HuffmanTree.c.o
+
+tree-structure/huffman-tree/HuffmanTree.i: tree-structure/huffman-tree/HuffmanTree.c.i
+
+.PHONY : tree-structure/huffman-tree/HuffmanTree.i
+
+# target to preprocess a source file
+tree-structure/huffman-tree/HuffmanTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.i
+.PHONY : tree-structure/huffman-tree/HuffmanTree.c.i
+
+tree-structure/huffman-tree/HuffmanTree.s: tree-structure/huffman-tree/HuffmanTree.c.s
+
+.PHONY : tree-structure/huffman-tree/HuffmanTree.s
+
+# target to generate assembly for a file
+tree-structure/huffman-tree/HuffmanTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.s
+.PHONY : tree-structure/huffman-tree/HuffmanTree.c.s
+
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.o: tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
+
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.o
+
+# target to build an object file
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
+
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.i: tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.i
+
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.i
+
+# target to preprocess a source file
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.i
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.i
+
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.s: tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s
+
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.s
+
+# target to generate assembly for a file
+tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s
+.PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1095,24 +1068,6 @@ help:
 	@echo "... graph-structure/UFSet.o"
 	@echo "... graph-structure/UFSet.i"
 	@echo "... graph-structure/UFSet.s"
-	@echo "... linear-structure/LinkQueue.o"
-	@echo "... linear-structure/LinkQueue.i"
-	@echo "... linear-structure/LinkQueue.s"
-	@echo "... linear-structure/LinkStack.o"
-	@echo "... linear-structure/LinkStack.i"
-	@echo "... linear-structure/LinkStack.s"
-	@echo "... linear-structure/PriorityQueue.o"
-	@echo "... linear-structure/PriorityQueue.i"
-	@echo "... linear-structure/PriorityQueue.s"
-	@echo "... linear-structure/SqQueue.o"
-	@echo "... linear-structure/SqQueue.i"
-	@echo "... linear-structure/SqQueue.s"
-	@echo "... linear-structure/SqStack.o"
-	@echo "... linear-structure/SqStack.i"
-	@echo "... linear-structure/SqStack.s"
-	@echo "... linear-structure/String.o"
-	@echo "... linear-structure/String.i"
-	@echo "... linear-structure/String.s"
 	@echo "... linear-structure/linked-list/double-linked-list/DoubleLinkedList.o"
 	@echo "... linear-structure/linked-list/double-linked-list/DoubleLinkedList.i"
 	@echo "... linear-structure/linked-list/double-linked-list/DoubleLinkedList.s"
@@ -1122,12 +1077,15 @@ help:
 	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.o"
 	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.i"
 	@echo "... linear-structure/linked-list/static-linked-list/StaticLinkedList.s"
-	@echo "... linear-structure/queue/LinkedQueue.o"
-	@echo "... linear-structure/queue/LinkedQueue.i"
-	@echo "... linear-structure/queue/LinkedQueue.s"
-	@echo "... linear-structure/queue/SequenceQueue.o"
-	@echo "... linear-structure/queue/SequenceQueue.i"
-	@echo "... linear-structure/queue/SequenceQueue.s"
+	@echo "... linear-structure/queue/linked-queue/LinkedQueue.o"
+	@echo "... linear-structure/queue/linked-queue/LinkedQueue.i"
+	@echo "... linear-structure/queue/linked-queue/LinkedQueue.s"
+	@echo "... linear-structure/queue/priority-queue/PriorityQueue.o"
+	@echo "... linear-structure/queue/priority-queue/PriorityQueue.i"
+	@echo "... linear-structure/queue/priority-queue/PriorityQueue.s"
+	@echo "... linear-structure/queue/sequence-queue/SequenceQueue.o"
+	@echo "... linear-structure/queue/sequence-queue/SequenceQueue.i"
+	@echo "... linear-structure/queue/sequence-queue/SequenceQueue.s"
 	@echo "... linear-structure/sequence-list/SequenceList.o"
 	@echo "... linear-structure/sequence-list/SequenceList.i"
 	@echo "... linear-structure/sequence-list/SequenceList.s"
@@ -1140,6 +1098,9 @@ help:
 	@echo "... linear-structure/stack/shared-stack/SharedStack.o"
 	@echo "... linear-structure/stack/shared-stack/SharedStack.i"
 	@echo "... linear-structure/stack/shared-stack/SharedStack.s"
+	@echo "... linear-structure/string/String.o"
+	@echo "... linear-structure/string/String.i"
+	@echo "... linear-structure/string/String.s"
 	@echo "... lookup-algorithm/BinarySearch.o"
 	@echo "... lookup-algorithm/BinarySearch.i"
 	@echo "... lookup-algorithm/BinarySearch.s"
@@ -1149,6 +1110,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... packaging-type/PackagingType.o"
+	@echo "... packaging-type/PackagingType.i"
+	@echo "... packaging-type/PackagingType.s"
 	@echo "... sort-algorithm/InsertSort.o"
 	@echo "... sort-algorithm/InsertSort.i"
 	@echo "... sort-algorithm/InsertSort.s"
@@ -1164,9 +1128,6 @@ help:
 	@echo "... tree-structure/BSTree.o"
 	@echo "... tree-structure/BSTree.i"
 	@echo "... tree-structure/BSTree.s"
-	@echo "... tree-structure/BiTree.o"
-	@echo "... tree-structure/BiTree.i"
-	@echo "... tree-structure/BiTree.s"
 	@echo "... tree-structure/CSTree.o"
 	@echo "... tree-structure/CSTree.i"
 	@echo "... tree-structure/CSTree.s"
@@ -1182,6 +1143,15 @@ help:
 	@echo "... tree-structure/ThreadTree.o"
 	@echo "... tree-structure/ThreadTree.i"
 	@echo "... tree-structure/ThreadTree.s"
+	@echo "... tree-structure/binary-tree/BinaryTree.o"
+	@echo "... tree-structure/binary-tree/BinaryTree.i"
+	@echo "... tree-structure/binary-tree/BinaryTree.s"
+	@echo "... tree-structure/huffman-tree/HuffmanTree.o"
+	@echo "... tree-structure/huffman-tree/HuffmanTree.i"
+	@echo "... tree-structure/huffman-tree/HuffmanTree.s"
+	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.o"
+	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.i"
+	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.s"
 .PHONY : help
 
 

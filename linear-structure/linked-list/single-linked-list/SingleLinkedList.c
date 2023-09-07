@@ -4,8 +4,10 @@
 #include "SingleLinkedList.h"
 
 struct SingleLinkedListNode {
-    ElementType data;
+    void *data;
     struct SingleLinkedListNode *next;
+
+    int (*compare)(void *, void *);
 };
 
 /**
@@ -14,6 +16,7 @@ struct SingleLinkedListNode {
  */
 SingleLinkedList singleLinkedListConstructor() {
     SingleLinkedListNode *head = malloc(sizeof(SingleLinkedListNode));
+    head->data = NULL;
     head->next = NULL;
     return head;
 }
@@ -24,7 +27,7 @@ SingleLinkedList singleLinkedListConstructor() {
  * @param length
  * @return
  */
-SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int length) {
+SingleLinkedList singleLinkedListHeadConstructor(void **elementList, int length) {
     SingleLinkedList list = singleLinkedListConstructor();
     for (int i = 0; i < length; ++i) {
         SingleLinkedListNode *node = malloc(sizeof(SingleLinkedListNode));
@@ -41,7 +44,7 @@ SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int l
  * @param length
  * @return
  */
-SingleLinkedList singleLinkedListTailConstructor(ElementType *elementList, int length) {
+SingleLinkedList singleLinkedListTailConstructor(void **elementList, int length) {
     SingleLinkedList list = singleLinkedListConstructor();
     SingleLinkedListNode *tailNode = list;
     for (int i = 0; i < length; ++i) {
@@ -61,7 +64,7 @@ SingleLinkedList singleLinkedListTailConstructor(ElementType *elementList, int l
  * @param element 元素
  */
 void singleLinkedListInsert(SingleLinkedList singleLinkedList, int index,
-                            ElementType element) throws INDEX_OUT_OF_RANGE_ERROR {
+                            void *element) throws INDEX_OUT_OF_RANGE_ERROR {
     if (index < 1) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
@@ -109,14 +112,15 @@ void singleLinkedListDelete(SingleLinkedList singleLinkedList, int index) throws
 
 /**
  * 获取索引
- * @param list 单链表
- * @param element 元素
- * @return 位置
+ * @param list
+ * @param element
+ * @param compare
+ * @return
  */
-int singleLinkedListIndexOf(SingleLinkedList list, ElementType element) {
+int singleLinkedListIndexOf(SingleLinkedList list, void *element, int (*compare)(void *, void *)) {
     int index = 1;
     SingleLinkedListNode *node = list->next;
-    for (; node != NULL && node->data != element;) {
+    for (; node != NULL && compare(node->data, element) != 0;) {
         node = node->next;
         index++;
     }
@@ -133,7 +137,7 @@ int singleLinkedListIndexOf(SingleLinkedList list, ElementType element) {
  * @param index 索引
  * @return 元素
  */
-ElementType
+void *
 singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR HAS_NO_ELEMENT_ERROR {
     if (index < 1) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");

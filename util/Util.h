@@ -10,8 +10,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "../error/Error.h"
+#include "../packaging-type/PackagingType.h"
 
-#define MAX_SIZE 10
-
-typedef int ElementType;
 #endif //DSA_UTIL_H

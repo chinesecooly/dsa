@@ -10,8 +10,8 @@
 typedef struct SingleLinkedListNode SingleLinkedListNode, *SingleLinkedList;
 
 /**
- * 构造带头节点的单链表
- * @return
+ * 构造函数
+ * @return 单链表
  */
 SingleLinkedList singleLinkedListConstructor();
 
@@ -21,7 +21,7 @@ SingleLinkedList singleLinkedListConstructor();
  * @param length
  * @return
  */
-SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int length);
+SingleLinkedList singleLinkedListHeadConstructor(void **elementList, int length);
 
 /**
  * 尾插法
@@ -29,33 +29,40 @@ SingleLinkedList singleLinkedListHeadConstructor(ElementType *elementList, int l
  * @param length
  * @return
  */
-SingleLinkedList singleLinkedListTailConstructor(ElementType *elementList, int length);
+SingleLinkedList singleLinkedListTailConstructor(void **elementList, int length);
 
 /**
- * 插入
+ * 按位插入
+ * @param singleLinkedList 单链表
+ * @param index 位置
+ * @param element 元素
  */
-void singleLinkedListInsert(SingleLinkedList, int, ElementType) throws INDEX_OUT_OF_RANGE_ERROR;
+void singleLinkedListInsert(SingleLinkedList singleLinkedList, int index,
+                            void *element) throws INDEX_OUT_OF_RANGE_ERROR;
 
 /**
- * 删除
+ * 按位删除
+ * @param singleLinkedList 单链表
+ * @param index 位置
  */
-void singleLinkedListDelete(SingleLinkedList, int) throws INDEX_OUT_OF_RANGE_ERROR;
+void singleLinkedListDelete(SingleLinkedList singleLinkedList, int index) throws INDEX_OUT_OF_RANGE_ERROR;
 
 /**
- * 查找索引
+ * 获取索引
+ * @param list
+ * @param element
+ * @param compare
+ * @return
+ */
+int singleLinkedListIndexOf(SingleLinkedList list, void *element, int (*compare)(void *, void *));
+
+/**
+ * 获取元素
  * @param list 单链表
- * @param element 查找元素
- * @return 索引
- */
-int singleLinkedListIndexOf(SingleLinkedList list, ElementType element);
-
-/**
- * 按位查找
- * @param list 单链表
- * @param index 索引值
+ * @param index 索引
  * @return 元素
  */
-ElementType
+void *
 singleLinkedListGet(SingleLinkedList list, int index) throws INDEX_OUT_OF_RANGE_ERROR HAS_NO_ELEMENT_ERROR;
 
 #endif //DSA_SINGLELINKEDLIST_H

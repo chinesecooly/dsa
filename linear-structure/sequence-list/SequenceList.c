@@ -4,24 +4,45 @@
 #include "SequenceList.h"
 
 struct SequenceList {
-    ElementType *data;
+    void **data;
     int length;
+    int size;
+
+    int (*compare)(void *, void *);
 };
 
-SequenceList sequenceListConstructor() {
+/**
+ * 构造函数
+ * @param size
+ * @param compare
+ * @return
+ */
+SequenceList sequenceListConstructor(int size, int (*compare)(void *, void *)) {
     SequenceList sequenceList = malloc(sizeof(struct SequenceList));
-    sequenceList->data = calloc(MAX_SIZE, sizeof(ElementType));
+    sequenceList->data = calloc(size, sizeof(void *));
     sequenceList->length = 0;
+    sequenceList->size = size;
+    sequenceList->compare = compare;
     return sequenceList;
 }
 
+/**
+ * 销毁
+ * @param sequenceList
+ */
 void sequenceListDestroy(SequenceList sequenceList) {
     free(sequenceList->data);
     free(sequenceList);
 }
 
-void sequenceListInsert(SequenceList sequenceList, int index, ElementType element) throws INDEX_OUT_OF_RANGE_ERROR {
-    if (sequenceList->length >= MAX_SIZE) {
+/**
+ * 插入
+ * @param sequenceList
+ * @param index
+ * @param element
+ */
+void sequenceListInsert(SequenceList sequenceList, int index, void *element) throws INDEX_OUT_OF_RANGE_ERROR {
+    if (sequenceList->length >= sequenceList->size) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "顺序表已满");
     }
     if (index < 1 || index > sequenceList->length + 1) {
@@ -34,6 +55,11 @@ void sequenceListInsert(SequenceList sequenceList, int index, ElementType elemen
     sequenceList->length++;
 }
 
+/**
+ * 删除
+ * @param sequenceList
+ * @param index
+ */
 void sequenceListDelete(SequenceList sequenceList, int index) {
     if (sequenceList->length == 0) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "顺序表为空");
@@ -46,16 +72,28 @@ void sequenceListDelete(SequenceList sequenceList, int index) {
     }
 }
 
-int sequenceListIndexOf(SequenceList sequenceList, ElementType element) {
+/**
+ * 查找下标
+ * @param sequenceList
+ * @param element
+ * @return
+ */
+int sequenceListIndexOf(SequenceList sequenceList, void *element) {
     for (int i = 1; i <= sequenceList->length; ++i) {
-        if (*(sequenceList->data + i - 1) == element) {
+        if (sequenceList->compare(*(sequenceList->data + i - 1), element) == 0) {
             return i;
         }
     }
     return -1;
 }
 
-ElementType sequenceListGet(SequenceList sequenceList, int index) {
+/**
+ * 获取元素
+ * @param sequenceList
+ * @param index
+ * @return
+ */
+void *sequenceListGet(SequenceList sequenceList, int index) {
     if (index < 1 || index > sequenceList->length) {
         throw Error(INDEX_OUT_OF_RANGE_ERROR, "索引不合法");
     }
