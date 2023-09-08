@@ -78,11 +78,21 @@ void *disjointSetFind(DisjointSet set, void *element) {
     if (index == -1) {
         return NULL;
     }
-    struct DisjointSetNode *node = set->nodeList + index;
-    while (node->parent >= 0) {
+    int rootIndex = index;
+    void *rootData = NULL;
+    //寻找根结点
+    for (struct DisjointSetNode *node = set->nodeList + index; node->parent >= 0;) {
+        rootIndex = node->parent;
         node = set->nodeList + node->parent;
+        rootData = node->data;
     }
-    return node->data;
+    //压缩路径
+    for (struct DisjointSetNode *node = set->nodeList + index; node->parent != rootIndex;) {
+        struct DisjointSetNode *temp = set->nodeList + node->parent;
+        node->parent = rootIndex;
+        node = temp;
+    }
+    return rootData;
 }
 
 /**
