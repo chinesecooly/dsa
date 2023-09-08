@@ -98,6 +98,7 @@ bool disjointSetUnion(DisjointSet set, void *element1, void *element2) {
     if (index1 == -1 || index2 == -1) {
         return false;
     }
+    //让小树并到大树
     if (abs((set->nodeList + index1)->parent) >= abs((set->nodeList + index2)->parent)) {
         (set->nodeList + index1)->parent += (set->nodeList + index2)->parent;
         (set->nodeList + index2)->parent = index1;
