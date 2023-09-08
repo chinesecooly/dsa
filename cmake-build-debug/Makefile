@@ -690,6 +690,33 @@ packaging-type/PackagingType.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.s
 .PHONY : packaging-type/PackagingType.c.s
 
+set-structure/disjoint-set/DisjointSet.o: set-structure/disjoint-set/DisjointSet.c.o
+
+.PHONY : set-structure/disjoint-set/DisjointSet.o
+
+# target to build an object file
+set-structure/disjoint-set/DisjointSet.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o
+.PHONY : set-structure/disjoint-set/DisjointSet.c.o
+
+set-structure/disjoint-set/DisjointSet.i: set-structure/disjoint-set/DisjointSet.c.i
+
+.PHONY : set-structure/disjoint-set/DisjointSet.i
+
+# target to preprocess a source file
+set-structure/disjoint-set/DisjointSet.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.i
+.PHONY : set-structure/disjoint-set/DisjointSet.c.i
+
+set-structure/disjoint-set/DisjointSet.s: set-structure/disjoint-set/DisjointSet.c.s
+
+.PHONY : set-structure/disjoint-set/DisjointSet.s
+
+# target to generate assembly for a file
+set-structure/disjoint-set/DisjointSet.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.s
+.PHONY : set-structure/disjoint-set/DisjointSet.c.s
+
 sort-algorithm/InsertSort.o: sort-algorithm/InsertSort.c.o
 
 .PHONY : sort-algorithm/InsertSort.o
@@ -798,168 +825,6 @@ sort-algorithm/SwapSort.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.s
 .PHONY : sort-algorithm/SwapSort.c.s
 
-tree-structure/BSTree.o: tree-structure/BSTree.c.o
-
-.PHONY : tree-structure/BSTree.o
-
-# target to build an object file
-tree-structure/BSTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BSTree.c.o
-.PHONY : tree-structure/BSTree.c.o
-
-tree-structure/BSTree.i: tree-structure/BSTree.c.i
-
-.PHONY : tree-structure/BSTree.i
-
-# target to preprocess a source file
-tree-structure/BSTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BSTree.c.i
-.PHONY : tree-structure/BSTree.c.i
-
-tree-structure/BSTree.s: tree-structure/BSTree.c.s
-
-.PHONY : tree-structure/BSTree.s
-
-# target to generate assembly for a file
-tree-structure/BSTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/BSTree.c.s
-.PHONY : tree-structure/BSTree.c.s
-
-tree-structure/CSTree.o: tree-structure/CSTree.c.o
-
-.PHONY : tree-structure/CSTree.o
-
-# target to build an object file
-tree-structure/CSTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CSTree.c.o
-.PHONY : tree-structure/CSTree.c.o
-
-tree-structure/CSTree.i: tree-structure/CSTree.c.i
-
-.PHONY : tree-structure/CSTree.i
-
-# target to preprocess a source file
-tree-structure/CSTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CSTree.c.i
-.PHONY : tree-structure/CSTree.c.i
-
-tree-structure/CSTree.s: tree-structure/CSTree.c.s
-
-.PHONY : tree-structure/CSTree.s
-
-# target to generate assembly for a file
-tree-structure/CSTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CSTree.c.s
-.PHONY : tree-structure/CSTree.c.s
-
-tree-structure/CTree.o: tree-structure/CTree.c.o
-
-.PHONY : tree-structure/CTree.o
-
-# target to build an object file
-tree-structure/CTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CTree.c.o
-.PHONY : tree-structure/CTree.c.o
-
-tree-structure/CTree.i: tree-structure/CTree.c.i
-
-.PHONY : tree-structure/CTree.i
-
-# target to preprocess a source file
-tree-structure/CTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CTree.c.i
-.PHONY : tree-structure/CTree.c.i
-
-tree-structure/CTree.s: tree-structure/CTree.c.s
-
-.PHONY : tree-structure/CTree.s
-
-# target to generate assembly for a file
-tree-structure/CTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/CTree.c.s
-.PHONY : tree-structure/CTree.c.s
-
-tree-structure/HTree.o: tree-structure/HTree.c.o
-
-.PHONY : tree-structure/HTree.o
-
-# target to build an object file
-tree-structure/HTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/HTree.c.o
-.PHONY : tree-structure/HTree.c.o
-
-tree-structure/HTree.i: tree-structure/HTree.c.i
-
-.PHONY : tree-structure/HTree.i
-
-# target to preprocess a source file
-tree-structure/HTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/HTree.c.i
-.PHONY : tree-structure/HTree.c.i
-
-tree-structure/HTree.s: tree-structure/HTree.c.s
-
-.PHONY : tree-structure/HTree.s
-
-# target to generate assembly for a file
-tree-structure/HTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/HTree.c.s
-.PHONY : tree-structure/HTree.c.s
-
-tree-structure/PTree.o: tree-structure/PTree.c.o
-
-.PHONY : tree-structure/PTree.o
-
-# target to build an object file
-tree-structure/PTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/PTree.c.o
-.PHONY : tree-structure/PTree.c.o
-
-tree-structure/PTree.i: tree-structure/PTree.c.i
-
-.PHONY : tree-structure/PTree.i
-
-# target to preprocess a source file
-tree-structure/PTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/PTree.c.i
-.PHONY : tree-structure/PTree.c.i
-
-tree-structure/PTree.s: tree-structure/PTree.c.s
-
-.PHONY : tree-structure/PTree.s
-
-# target to generate assembly for a file
-tree-structure/PTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/PTree.c.s
-.PHONY : tree-structure/PTree.c.s
-
-tree-structure/ThreadTree.o: tree-structure/ThreadTree.c.o
-
-.PHONY : tree-structure/ThreadTree.o
-
-# target to build an object file
-tree-structure/ThreadTree.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o
-.PHONY : tree-structure/ThreadTree.c.o
-
-tree-structure/ThreadTree.i: tree-structure/ThreadTree.c.i
-
-.PHONY : tree-structure/ThreadTree.i
-
-# target to preprocess a source file
-tree-structure/ThreadTree.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.i
-.PHONY : tree-structure/ThreadTree.c.i
-
-tree-structure/ThreadTree.s: tree-structure/ThreadTree.c.s
-
-.PHONY : tree-structure/ThreadTree.s
-
-# target to generate assembly for a file
-tree-structure/ThreadTree.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.s
-.PHONY : tree-structure/ThreadTree.c.s
-
 tree-structure/binary-tree/BinaryTree.o: tree-structure/binary-tree/BinaryTree.c.o
 
 .PHONY : tree-structure/binary-tree/BinaryTree.o
@@ -1041,6 +906,87 @@ tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s
 .PHONY : tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.s
 
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.o: tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o
+
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.o
+
+# target to build an object file
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o
+
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.i: tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.i
+
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.i
+
+# target to preprocess a source file
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.i
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.i
+
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.s: tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.s
+
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.s
+
+# target to generate assembly for a file
+tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.s
+.PHONY : tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.s
+
+tree-structure/tree/child-tree/ChildTree.o: tree-structure/tree/child-tree/ChildTree.c.o
+
+.PHONY : tree-structure/tree/child-tree/ChildTree.o
+
+# target to build an object file
+tree-structure/tree/child-tree/ChildTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o
+.PHONY : tree-structure/tree/child-tree/ChildTree.c.o
+
+tree-structure/tree/child-tree/ChildTree.i: tree-structure/tree/child-tree/ChildTree.c.i
+
+.PHONY : tree-structure/tree/child-tree/ChildTree.i
+
+# target to preprocess a source file
+tree-structure/tree/child-tree/ChildTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.i
+.PHONY : tree-structure/tree/child-tree/ChildTree.c.i
+
+tree-structure/tree/child-tree/ChildTree.s: tree-structure/tree/child-tree/ChildTree.c.s
+
+.PHONY : tree-structure/tree/child-tree/ChildTree.s
+
+# target to generate assembly for a file
+tree-structure/tree/child-tree/ChildTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.s
+.PHONY : tree-structure/tree/child-tree/ChildTree.c.s
+
+tree-structure/tree/parent-tree/ParentTree.o: tree-structure/tree/parent-tree/ParentTree.c.o
+
+.PHONY : tree-structure/tree/parent-tree/ParentTree.o
+
+# target to build an object file
+tree-structure/tree/parent-tree/ParentTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o
+.PHONY : tree-structure/tree/parent-tree/ParentTree.c.o
+
+tree-structure/tree/parent-tree/ParentTree.i: tree-structure/tree/parent-tree/ParentTree.c.i
+
+.PHONY : tree-structure/tree/parent-tree/ParentTree.i
+
+# target to preprocess a source file
+tree-structure/tree/parent-tree/ParentTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.i
+.PHONY : tree-structure/tree/parent-tree/ParentTree.c.i
+
+tree-structure/tree/parent-tree/ParentTree.s: tree-structure/tree/parent-tree/ParentTree.c.s
+
+.PHONY : tree-structure/tree/parent-tree/ParentTree.s
+
+# target to generate assembly for a file
+tree-structure/tree/parent-tree/ParentTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.s
+.PHONY : tree-structure/tree/parent-tree/ParentTree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1113,6 +1059,9 @@ help:
 	@echo "... packaging-type/PackagingType.o"
 	@echo "... packaging-type/PackagingType.i"
 	@echo "... packaging-type/PackagingType.s"
+	@echo "... set-structure/disjoint-set/DisjointSet.o"
+	@echo "... set-structure/disjoint-set/DisjointSet.i"
+	@echo "... set-structure/disjoint-set/DisjointSet.s"
 	@echo "... sort-algorithm/InsertSort.o"
 	@echo "... sort-algorithm/InsertSort.i"
 	@echo "... sort-algorithm/InsertSort.s"
@@ -1125,24 +1074,6 @@ help:
 	@echo "... sort-algorithm/SwapSort.o"
 	@echo "... sort-algorithm/SwapSort.i"
 	@echo "... sort-algorithm/SwapSort.s"
-	@echo "... tree-structure/BSTree.o"
-	@echo "... tree-structure/BSTree.i"
-	@echo "... tree-structure/BSTree.s"
-	@echo "... tree-structure/CSTree.o"
-	@echo "... tree-structure/CSTree.i"
-	@echo "... tree-structure/CSTree.s"
-	@echo "... tree-structure/CTree.o"
-	@echo "... tree-structure/CTree.i"
-	@echo "... tree-structure/CTree.s"
-	@echo "... tree-structure/HTree.o"
-	@echo "... tree-structure/HTree.i"
-	@echo "... tree-structure/HTree.s"
-	@echo "... tree-structure/PTree.o"
-	@echo "... tree-structure/PTree.i"
-	@echo "... tree-structure/PTree.s"
-	@echo "... tree-structure/ThreadTree.o"
-	@echo "... tree-structure/ThreadTree.i"
-	@echo "... tree-structure/ThreadTree.s"
 	@echo "... tree-structure/binary-tree/BinaryTree.o"
 	@echo "... tree-structure/binary-tree/BinaryTree.i"
 	@echo "... tree-structure/binary-tree/BinaryTree.s"
@@ -1152,6 +1083,15 @@ help:
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.o"
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.i"
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.s"
+	@echo "... tree-structure/tree/child-sibling-tree/ChildSiblingTree.o"
+	@echo "... tree-structure/tree/child-sibling-tree/ChildSiblingTree.i"
+	@echo "... tree-structure/tree/child-sibling-tree/ChildSiblingTree.s"
+	@echo "... tree-structure/tree/child-tree/ChildTree.o"
+	@echo "... tree-structure/tree/child-tree/ChildTree.i"
+	@echo "... tree-structure/tree/child-tree/ChildTree.s"
+	@echo "... tree-structure/tree/parent-tree/ParentTree.o"
+	@echo "... tree-structure/tree/parent-tree/ParentTree.i"
+	@echo "... tree-structure/tree/parent-tree/ParentTree.s"
 .PHONY : help
 
 

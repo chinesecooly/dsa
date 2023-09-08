@@ -110,6 +110,13 @@ CMakeFiles/dsa.dir/main.c.o: ../util/Util.h
 CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o: ../packaging-type/PackagingType.c
 CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o: ../packaging-type/PackagingType.h
 
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../packaging-type/PackagingType.h
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../set-structure/disjoint-set/DisjointSet.c
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../set-structure/disjoint-set/DisjointSet.h
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o: ../util/Util.h
+
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o: ../sort-algorithm/InsertSort.c
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o: ../sort-algorithm/InsertSort.h
 
@@ -122,30 +129,6 @@ CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o: ../sort-algorithm/SelectSort.h
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o: ../sort-algorithm/SwapSort.c
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o: ../sort-algorithm/SwapSort.h
 
-CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: ../tree-structure/BSTree.c
-CMakeFiles/dsa.dir/tree-structure/BSTree.c.o: ../tree-structure/BSTree.h
-
-CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: ../tree-structure/CSTree.c
-CMakeFiles/dsa.dir/tree-structure/CSTree.c.o: ../tree-structure/CSTree.h
-
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../error/Error.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../error/ErrorConstant.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../linear-structure/linked-list/single-linked-list/SingleLinkedList.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../packaging-type/PackagingType.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../tree-structure/CTree.c
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../tree-structure/CTree.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o: ../util/Util.h
-
-CMakeFiles/dsa.dir/tree-structure/HTree.c.o: ../linear-structure/queue/priority-queue/PriorityQueue.h
-CMakeFiles/dsa.dir/tree-structure/HTree.c.o: ../tree-structure/HTree.c
-CMakeFiles/dsa.dir/tree-structure/HTree.c.o: ../tree-structure/HTree.h
-
-CMakeFiles/dsa.dir/tree-structure/PTree.c.o: ../tree-structure/PTree.c
-CMakeFiles/dsa.dir/tree-structure/PTree.c.o: ../tree-structure/PTree.h
-
-CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o: ../tree-structure/ThreadTree.c
-CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o: ../tree-structure/ThreadTree.h
-
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../error/Error.h
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../error/ErrorConstant.h
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../linear-structure/queue/linked-queue/LinkedQueue.h
@@ -154,9 +137,38 @@ CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../tree-structure/
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../tree-structure/binary-tree/BinaryTree.h
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o: ../util/Util.h
 
+CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../packaging-type/PackagingType.h
 CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../tree-structure/huffman-tree/HuffmanTree.c
 CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../tree-structure/huffman-tree/HuffmanTree.h
+CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o: ../util/Util.h
 
+CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../packaging-type/PackagingType.h
 CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../tree-structure/threaded-binary-tree/ThreadedBinaryTree.c
 CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../tree-structure/threaded-binary-tree/ThreadedBinaryTree.h
+CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o: ../util/Util.h
+
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../packaging-type/PackagingType.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../tree-structure/tree/child-sibling-tree/ChildSiblingTree.c
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../tree-structure/tree/child-sibling-tree/ChildSiblingTree.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o: ../util/Util.h
+
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../packaging-type/PackagingType.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../tree-structure/tree/child-tree/ChildTree.c
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../tree-structure/tree/child-tree/ChildTree.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o: ../util/Util.h
+
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../error/Error.h
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../error/ErrorConstant.h
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../packaging-type/PackagingType.h
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../tree-structure/tree/parent-tree/ParentTree.c
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../tree-structure/tree/parent-tree/ParentTree.h
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o: ../util/Util.h
 

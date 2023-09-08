@@ -110,6 +110,13 @@ CMakeFiles/dsa.dir/main.c.o
 CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o
  /mnt/d/c-project/dsa/packaging-type/PackagingType.c
  /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.c
+ /mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.c
  /mnt/d/c-project/dsa/sort-algorithm/InsertSort.h
@@ -122,30 +129,6 @@ CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o
 CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o
  /mnt/d/c-project/dsa/sort-algorithm/SwapSort.c
  /mnt/d/c-project/dsa/sort-algorithm/SwapSort.h
-CMakeFiles/dsa.dir/tree-structure/BSTree.c.o
- /mnt/d/c-project/dsa/tree-structure/BSTree.c
- /mnt/d/c-project/dsa/tree-structure/BSTree.h
-CMakeFiles/dsa.dir/tree-structure/CSTree.c.o
- /mnt/d/c-project/dsa/tree-structure/CSTree.c
- /mnt/d/c-project/dsa/tree-structure/CSTree.h
-CMakeFiles/dsa.dir/tree-structure/CTree.c.o
- /mnt/d/c-project/dsa/error/Error.h
- /mnt/d/c-project/dsa/error/ErrorConstant.h
- /mnt/d/c-project/dsa/linear-structure/linked-list/single-linked-list/SingleLinkedList.h
- /mnt/d/c-project/dsa/packaging-type/PackagingType.h
- /mnt/d/c-project/dsa/tree-structure/CTree.c
- /mnt/d/c-project/dsa/tree-structure/CTree.h
- /mnt/d/c-project/dsa/util/Util.h
-CMakeFiles/dsa.dir/tree-structure/HTree.c.o
- /mnt/d/c-project/dsa/linear-structure/queue/priority-queue/PriorityQueue.h
- /mnt/d/c-project/dsa/tree-structure/HTree.c
- /mnt/d/c-project/dsa/tree-structure/HTree.h
-CMakeFiles/dsa.dir/tree-structure/PTree.c.o
- /mnt/d/c-project/dsa/tree-structure/PTree.c
- /mnt/d/c-project/dsa/tree-structure/PTree.h
-CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o
- /mnt/d/c-project/dsa/tree-structure/ThreadTree.c
- /mnt/d/c-project/dsa/tree-structure/ThreadTree.h
 CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o
  /mnt/d/c-project/dsa/error/Error.h
  /mnt/d/c-project/dsa/error/ErrorConstant.h
@@ -155,8 +138,37 @@ CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o
  /mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.h
  /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.c
  /mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.h
+ /mnt/d/c-project/dsa/util/Util.h
 CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
  /mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c
  /mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c
+ /mnt/d/c-project/dsa/tree-structure/tree/child-sibling-tree/ChildSiblingTree.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/tree-structure/tree/child-tree/ChildTree.c
+ /mnt/d/c-project/dsa/tree-structure/tree/child-tree/ChildTree.h
+ /mnt/d/c-project/dsa/util/Util.h
+CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o
+ /mnt/d/c-project/dsa/error/Error.h
+ /mnt/d/c-project/dsa/error/ErrorConstant.h
+ /mnt/d/c-project/dsa/packaging-type/PackagingType.h
+ /mnt/d/c-project/dsa/tree-structure/tree/parent-tree/ParentTree.c
+ /mnt/d/c-project/dsa/tree-structure/tree/parent-tree/ParentTree.h
+ /mnt/d/c-project/dsa/util/Util.h

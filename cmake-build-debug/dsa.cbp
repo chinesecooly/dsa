@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/c-project/dsa/access-control/AccessControl.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/error/Error.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -202,6 +205,12 @@
 		<Unit filename="/mnt/d/c-project/dsa/packaging-type/PackagingType.h">
 			<Option target="dsa"/>
 		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/sort-algorithm/InsertSort.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -226,42 +235,6 @@
 		<Unit filename="/mnt/d/c-project/dsa/sort-algorithm/SwapSort.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/BSTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/BSTree.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/CSTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/CSTree.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/CTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/CTree.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/HTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/HTree.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/PTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/PTree.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/ThreadTree.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/tree-structure/ThreadTree.h">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -278,6 +251,24 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/child-sibling-tree/ChildSiblingTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/child-tree/ChildTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/child-tree/ChildTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/parent-tree/ParentTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/tree/parent-tree/ParentTree.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/util/Util.h">

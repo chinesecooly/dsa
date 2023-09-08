@@ -25,19 +25,17 @@ set(CMAKE_DEPENDS_CHECK_C
   "/mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o"
   "/mnt/d/c-project/dsa/main.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/main.c.o"
   "/mnt/d/c-project/dsa/packaging-type/PackagingType.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o"
+  "/mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/set-structure/disjoint-set/DisjointSet.c.o"
   "/mnt/d/c-project/dsa/sort-algorithm/InsertSort.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/sort-algorithm/InsertSort.c.o"
   "/mnt/d/c-project/dsa/sort-algorithm/MergeSort.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/sort-algorithm/MergeSort.c.o"
   "/mnt/d/c-project/dsa/sort-algorithm/SelectSort.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/sort-algorithm/SelectSort.c.o"
   "/mnt/d/c-project/dsa/sort-algorithm/SwapSort.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/BSTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/BSTree.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/CSTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/CSTree.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/CTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/CTree.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/HTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/HTree.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/PTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/PTree.c.o"
-  "/mnt/d/c-project/dsa/tree-structure/ThreadTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/ThreadTree.c.o"
   "/mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/binary-tree/BinaryTree.c.o"
   "/mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.o"
   "/mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o"
+  "/mnt/d/c-project/dsa/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/tree/child-sibling-tree/ChildSiblingTree.c.o"
+  "/mnt/d/c-project/dsa/tree-structure/tree/child-tree/ChildTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/tree/child-tree/ChildTree.c.o"
+  "/mnt/d/c-project/dsa/tree-structure/tree/parent-tree/ParentTree.c" "/mnt/d/c-project/dsa/cmake-build-debug/CMakeFiles/dsa.dir/tree-structure/tree/parent-tree/ParentTree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

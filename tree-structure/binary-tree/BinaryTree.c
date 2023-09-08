@@ -7,7 +7,7 @@
 struct BinaryTreeNode {
     void *data;
     struct BinaryTreeNode *lNode;
-    struct BinaryTreeNode *RNode;
+    struct BinaryTreeNode *rNode;
 
     int (*compare)(void *, void *);
 };
@@ -43,10 +43,10 @@ binaryTreePreInOrderConstructor(void **preOrderList, void **inOrderList, int (*c
         root->lNode = NULL;
     }
     if (rLen) {
-        root->RNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, pe - rLen + 1, pe,
+        root->rNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, pe - rLen + 1, pe,
                                                       ie - rLen + 1, ie);
     } else {
-        root->RNode = NULL;
+        root->rNode = NULL;
     }
     return root;
 }
@@ -59,7 +59,7 @@ void preOrder(BinaryTree tree, LinkedQueue preOrderList) {
     if (tree != NULL) {
         linkedQueueEnQueue(preOrderList, tree->data);
         preOrder(tree->lNode, preOrderList);
-        preOrder(tree->RNode, preOrderList);
+        preOrder(tree->rNode, preOrderList);
     }
 }
 
@@ -71,7 +71,7 @@ void inOrder(BinaryTree tree, LinkedQueue inOrderList) {
     if (tree != NULL) {
         inOrder(tree->lNode, inOrderList);
         linkedQueueEnQueue(inOrderList, tree->data);
-        inOrder(tree->RNode, inOrderList);
+        inOrder(tree->rNode, inOrderList);
     }
 }
 
@@ -82,7 +82,7 @@ void inOrder(BinaryTree tree, LinkedQueue inOrderList) {
 void postOrder(BinaryTree tree, LinkedQueue postOrderList) {
     if (tree != NULL) {
         postOrder(tree->lNode, postOrderList);
-        postOrder(tree->RNode, postOrderList);
+        postOrder(tree->rNode, postOrderList);
         linkedQueueEnQueue(postOrderList, tree->data);
     }
 }
@@ -100,8 +100,8 @@ void levelOrder(BinaryTree tree, LinkedQueue levelOrderList) {
         if (node->lNode != NULL) {
             linkedQueueEnQueue(queue, node->lNode);
         }
-        if (node->RNode != NULL) {
-            linkedQueueEnQueue(queue, node->RNode);
+        if (node->rNode != NULL) {
+            linkedQueueEnQueue(queue, node->rNode);
         }
     }
 }

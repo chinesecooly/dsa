@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <math.h>
 #include "../error/Error.h"
 #include "../packaging-type/PackagingType.h"
 
