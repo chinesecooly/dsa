@@ -76,7 +76,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/c-project/dsa/access-control/AccessControl.h">
+		<Unit filename="/mnt/d/c-project/dsa/comparable/Comparable.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/comparable/Comparable.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/error/Error.c">
@@ -184,25 +187,19 @@
 		<Unit filename="/mnt/d/c-project/dsa/linear-structure/string/String.h">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/BinarySearch.h">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.c">
-			<Option target="dsa"/>
-		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/lookup-algorithm/SeqSearch.h">
-			<Option target="dsa"/>
-		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/main.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/packaging-type/PackagingType.c">
+		<Unit filename="/mnt/d/c-project/dsa/search-algorithm/binary-serach/BinarySearch.c">
 			<Option target="dsa"/>
 		</Unit>
-		<Unit filename="/mnt/d/c-project/dsa/packaging-type/PackagingType.h">
+		<Unit filename="/mnt/d/c-project/dsa/search-algorithm/binary-serach/BinarySearch.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/search-algorithm/block-search/BlockSearch.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/search-algorithm/block-search/BlockSearch.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/set-structure/disjoint-set/DisjointSet.c">
@@ -235,6 +232,12 @@
 		<Unit filename="/mnt/d/c-project/dsa/sort-algorithm/SwapSort.h">
 			<Option target="dsa"/>
 		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/balanced-binary-tree/BalancedBinaryTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/balanced-binary-tree/BalancedBinaryTree.h">
+			<Option target="dsa"/>
+		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/binary-tree/BinaryTree.c">
 			<Option target="dsa"/>
 		</Unit>
@@ -245,6 +248,18 @@
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/huffman-tree/HuffmanTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/red-black-tree/RedBlackTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/red-black-tree/RedBlackTree.h">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/sorted-binary-tree/SortedBinaryTree.c">
+			<Option target="dsa"/>
+		</Unit>
+		<Unit filename="/mnt/d/c-project/dsa/tree-structure/sorted-binary-tree/SortedBinaryTree.h">
 			<Option target="dsa"/>
 		</Unit>
 		<Unit filename="/mnt/d/c-project/dsa/tree-structure/threaded-binary-tree/ThreadedBinaryTree.c">

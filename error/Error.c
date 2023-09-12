@@ -12,7 +12,7 @@ void stdErr() {
 }
 
 void stdInfo() {
-    printf("%s %s  %d %s \n", error.date, error.file, error.line, error.msg);
+    printf(" %s %s  %d %s \n", error.date, error.file, error.line, error.msg);
 }
 
 void stdWarn() {

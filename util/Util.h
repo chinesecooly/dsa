@@ -11,6 +11,6 @@
 #include <stdbool.h>
 #include <math.h>
 #include "../error/Error.h"
-#include "../packaging-type/PackagingType.h"
+#include "../comparable/Comparable.h"
 
 #endif //DSA_UTIL_H

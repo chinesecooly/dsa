@@ -23,9 +23,7 @@ struct BinaryTreeNode {
  * @param ie 中序结束位置
  * @return 二叉树
  */
-BinaryTree
-binaryTreePreInOrderConstructor(void **preOrderList, void **inOrderList, int (*compare)(void *, void *), int ps, int pe,
-                                int is, int ie) {
+BinaryTree binaryTreePreInOrderConstructor(void **preOrderList, void **inOrderList, int (*compare)(void *, void *), int ps, int pe, int is, int ie) {
     BinaryTreeNode *root = malloc(sizeof(BinaryTreeNode));
     root->data = *(preOrderList + ps);
     int lLen, rLen;
@@ -37,14 +35,12 @@ binaryTreePreInOrderConstructor(void **preOrderList, void **inOrderList, int (*c
         }
     }
     if (lLen) {
-        root->lNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, ps + 1, ps + lLen, is,
-                                                      is + lLen - 1);
+        root->lNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, ps + 1, ps + lLen, is, is + lLen - 1);
     } else {
         root->lNode = NULL;
     }
     if (rLen) {
-        root->rNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, pe - rLen + 1, pe,
-                                                      ie - rLen + 1, ie);
+        root->rNode = binaryTreePreInOrderConstructor(preOrderList, inOrderList, compare, pe - rLen + 1, pe, ie - rLen + 1, ie);
     } else {
         root->rNode = NULL;
     }

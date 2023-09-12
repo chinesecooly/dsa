@@ -123,6 +123,33 @@ dsa/fast:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/build
 .PHONY : dsa/fast
 
+comparable/Comparable.o: comparable/Comparable.c.o
+
+.PHONY : comparable/Comparable.o
+
+# target to build an object file
+comparable/Comparable.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/comparable/Comparable.c.o
+.PHONY : comparable/Comparable.c.o
+
+comparable/Comparable.i: comparable/Comparable.c.i
+
+.PHONY : comparable/Comparable.i
+
+# target to preprocess a source file
+comparable/Comparable.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/comparable/Comparable.c.i
+.PHONY : comparable/Comparable.c.i
+
+comparable/Comparable.s: comparable/Comparable.c.s
+
+.PHONY : comparable/Comparable.s
+
+# target to generate assembly for a file
+comparable/Comparable.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/comparable/Comparable.c.s
+.PHONY : comparable/Comparable.c.s
+
 error/Error.o: error/Error.c.o
 
 .PHONY : error/Error.o
@@ -582,60 +609,6 @@ linear-structure/string/String.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/linear-structure/string/String.c.s
 .PHONY : linear-structure/string/String.c.s
 
-lookup-algorithm/BinarySearch.o: lookup-algorithm/BinarySearch.c.o
-
-.PHONY : lookup-algorithm/BinarySearch.o
-
-# target to build an object file
-lookup-algorithm/BinarySearch.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.o
-.PHONY : lookup-algorithm/BinarySearch.c.o
-
-lookup-algorithm/BinarySearch.i: lookup-algorithm/BinarySearch.c.i
-
-.PHONY : lookup-algorithm/BinarySearch.i
-
-# target to preprocess a source file
-lookup-algorithm/BinarySearch.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.i
-.PHONY : lookup-algorithm/BinarySearch.c.i
-
-lookup-algorithm/BinarySearch.s: lookup-algorithm/BinarySearch.c.s
-
-.PHONY : lookup-algorithm/BinarySearch.s
-
-# target to generate assembly for a file
-lookup-algorithm/BinarySearch.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/BinarySearch.c.s
-.PHONY : lookup-algorithm/BinarySearch.c.s
-
-lookup-algorithm/SeqSearch.o: lookup-algorithm/SeqSearch.c.o
-
-.PHONY : lookup-algorithm/SeqSearch.o
-
-# target to build an object file
-lookup-algorithm/SeqSearch.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.o
-.PHONY : lookup-algorithm/SeqSearch.c.o
-
-lookup-algorithm/SeqSearch.i: lookup-algorithm/SeqSearch.c.i
-
-.PHONY : lookup-algorithm/SeqSearch.i
-
-# target to preprocess a source file
-lookup-algorithm/SeqSearch.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.i
-.PHONY : lookup-algorithm/SeqSearch.c.i
-
-lookup-algorithm/SeqSearch.s: lookup-algorithm/SeqSearch.c.s
-
-.PHONY : lookup-algorithm/SeqSearch.s
-
-# target to generate assembly for a file
-lookup-algorithm/SeqSearch.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/lookup-algorithm/SeqSearch.c.s
-.PHONY : lookup-algorithm/SeqSearch.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -663,32 +636,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/main.c.s
 .PHONY : main.c.s
 
-packaging-type/PackagingType.o: packaging-type/PackagingType.c.o
+search-algorithm/binary-serach/BinarySearch.o: search-algorithm/binary-serach/BinarySearch.c.o
 
-.PHONY : packaging-type/PackagingType.o
+.PHONY : search-algorithm/binary-serach/BinarySearch.o
 
 # target to build an object file
-packaging-type/PackagingType.c.o:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.o
-.PHONY : packaging-type/PackagingType.c.o
+search-algorithm/binary-serach/BinarySearch.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/binary-serach/BinarySearch.c.o
+.PHONY : search-algorithm/binary-serach/BinarySearch.c.o
 
-packaging-type/PackagingType.i: packaging-type/PackagingType.c.i
+search-algorithm/binary-serach/BinarySearch.i: search-algorithm/binary-serach/BinarySearch.c.i
 
-.PHONY : packaging-type/PackagingType.i
+.PHONY : search-algorithm/binary-serach/BinarySearch.i
 
 # target to preprocess a source file
-packaging-type/PackagingType.c.i:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.i
-.PHONY : packaging-type/PackagingType.c.i
+search-algorithm/binary-serach/BinarySearch.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/binary-serach/BinarySearch.c.i
+.PHONY : search-algorithm/binary-serach/BinarySearch.c.i
 
-packaging-type/PackagingType.s: packaging-type/PackagingType.c.s
+search-algorithm/binary-serach/BinarySearch.s: search-algorithm/binary-serach/BinarySearch.c.s
 
-.PHONY : packaging-type/PackagingType.s
+.PHONY : search-algorithm/binary-serach/BinarySearch.s
 
 # target to generate assembly for a file
-packaging-type/PackagingType.c.s:
-	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/packaging-type/PackagingType.c.s
-.PHONY : packaging-type/PackagingType.c.s
+search-algorithm/binary-serach/BinarySearch.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/binary-serach/BinarySearch.c.s
+.PHONY : search-algorithm/binary-serach/BinarySearch.c.s
+
+search-algorithm/block-search/BlockSearch.o: search-algorithm/block-search/BlockSearch.c.o
+
+.PHONY : search-algorithm/block-search/BlockSearch.o
+
+# target to build an object file
+search-algorithm/block-search/BlockSearch.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/block-search/BlockSearch.c.o
+.PHONY : search-algorithm/block-search/BlockSearch.c.o
+
+search-algorithm/block-search/BlockSearch.i: search-algorithm/block-search/BlockSearch.c.i
+
+.PHONY : search-algorithm/block-search/BlockSearch.i
+
+# target to preprocess a source file
+search-algorithm/block-search/BlockSearch.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/block-search/BlockSearch.c.i
+.PHONY : search-algorithm/block-search/BlockSearch.c.i
+
+search-algorithm/block-search/BlockSearch.s: search-algorithm/block-search/BlockSearch.c.s
+
+.PHONY : search-algorithm/block-search/BlockSearch.s
+
+# target to generate assembly for a file
+search-algorithm/block-search/BlockSearch.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/search-algorithm/block-search/BlockSearch.c.s
+.PHONY : search-algorithm/block-search/BlockSearch.c.s
 
 set-structure/disjoint-set/DisjointSet.o: set-structure/disjoint-set/DisjointSet.c.o
 
@@ -825,6 +825,33 @@ sort-algorithm/SwapSort.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/sort-algorithm/SwapSort.c.s
 .PHONY : sort-algorithm/SwapSort.c.s
 
+tree-structure/balanced-binary-tree/BalancedBinaryTree.o: tree-structure/balanced-binary-tree/BalancedBinaryTree.c.o
+
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.o
+
+# target to build an object file
+tree-structure/balanced-binary-tree/BalancedBinaryTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/balanced-binary-tree/BalancedBinaryTree.c.o
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.c.o
+
+tree-structure/balanced-binary-tree/BalancedBinaryTree.i: tree-structure/balanced-binary-tree/BalancedBinaryTree.c.i
+
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.i
+
+# target to preprocess a source file
+tree-structure/balanced-binary-tree/BalancedBinaryTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/balanced-binary-tree/BalancedBinaryTree.c.i
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.c.i
+
+tree-structure/balanced-binary-tree/BalancedBinaryTree.s: tree-structure/balanced-binary-tree/BalancedBinaryTree.c.s
+
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.s
+
+# target to generate assembly for a file
+tree-structure/balanced-binary-tree/BalancedBinaryTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/balanced-binary-tree/BalancedBinaryTree.c.s
+.PHONY : tree-structure/balanced-binary-tree/BalancedBinaryTree.c.s
+
 tree-structure/binary-tree/BinaryTree.o: tree-structure/binary-tree/BinaryTree.c.o
 
 .PHONY : tree-structure/binary-tree/BinaryTree.o
@@ -878,6 +905,60 @@ tree-structure/huffman-tree/HuffmanTree.s: tree-structure/huffman-tree/HuffmanTr
 tree-structure/huffman-tree/HuffmanTree.c.s:
 	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/huffman-tree/HuffmanTree.c.s
 .PHONY : tree-structure/huffman-tree/HuffmanTree.c.s
+
+tree-structure/red-black-tree/RedBlackTree.o: tree-structure/red-black-tree/RedBlackTree.c.o
+
+.PHONY : tree-structure/red-black-tree/RedBlackTree.o
+
+# target to build an object file
+tree-structure/red-black-tree/RedBlackTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/red-black-tree/RedBlackTree.c.o
+.PHONY : tree-structure/red-black-tree/RedBlackTree.c.o
+
+tree-structure/red-black-tree/RedBlackTree.i: tree-structure/red-black-tree/RedBlackTree.c.i
+
+.PHONY : tree-structure/red-black-tree/RedBlackTree.i
+
+# target to preprocess a source file
+tree-structure/red-black-tree/RedBlackTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/red-black-tree/RedBlackTree.c.i
+.PHONY : tree-structure/red-black-tree/RedBlackTree.c.i
+
+tree-structure/red-black-tree/RedBlackTree.s: tree-structure/red-black-tree/RedBlackTree.c.s
+
+.PHONY : tree-structure/red-black-tree/RedBlackTree.s
+
+# target to generate assembly for a file
+tree-structure/red-black-tree/RedBlackTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/red-black-tree/RedBlackTree.c.s
+.PHONY : tree-structure/red-black-tree/RedBlackTree.c.s
+
+tree-structure/sorted-binary-tree/SortedBinaryTree.o: tree-structure/sorted-binary-tree/SortedBinaryTree.c.o
+
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.o
+
+# target to build an object file
+tree-structure/sorted-binary-tree/SortedBinaryTree.c.o:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/sorted-binary-tree/SortedBinaryTree.c.o
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.c.o
+
+tree-structure/sorted-binary-tree/SortedBinaryTree.i: tree-structure/sorted-binary-tree/SortedBinaryTree.c.i
+
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.i
+
+# target to preprocess a source file
+tree-structure/sorted-binary-tree/SortedBinaryTree.c.i:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/sorted-binary-tree/SortedBinaryTree.c.i
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.c.i
+
+tree-structure/sorted-binary-tree/SortedBinaryTree.s: tree-structure/sorted-binary-tree/SortedBinaryTree.c.s
+
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.s
+
+# target to generate assembly for a file
+tree-structure/sorted-binary-tree/SortedBinaryTree.c.s:
+	$(MAKE) -f CMakeFiles/dsa.dir/build.make CMakeFiles/dsa.dir/tree-structure/sorted-binary-tree/SortedBinaryTree.c.s
+.PHONY : tree-structure/sorted-binary-tree/SortedBinaryTree.c.s
 
 tree-structure/threaded-binary-tree/ThreadedBinaryTree.o: tree-structure/threaded-binary-tree/ThreadedBinaryTree.c.o
 
@@ -996,6 +1077,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dsa"
+	@echo "... comparable/Comparable.o"
+	@echo "... comparable/Comparable.i"
+	@echo "... comparable/Comparable.s"
 	@echo "... error/Error.o"
 	@echo "... error/Error.i"
 	@echo "... error/Error.s"
@@ -1047,18 +1131,15 @@ help:
 	@echo "... linear-structure/string/String.o"
 	@echo "... linear-structure/string/String.i"
 	@echo "... linear-structure/string/String.s"
-	@echo "... lookup-algorithm/BinarySearch.o"
-	@echo "... lookup-algorithm/BinarySearch.i"
-	@echo "... lookup-algorithm/BinarySearch.s"
-	@echo "... lookup-algorithm/SeqSearch.o"
-	@echo "... lookup-algorithm/SeqSearch.i"
-	@echo "... lookup-algorithm/SeqSearch.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... packaging-type/PackagingType.o"
-	@echo "... packaging-type/PackagingType.i"
-	@echo "... packaging-type/PackagingType.s"
+	@echo "... search-algorithm/binary-serach/BinarySearch.o"
+	@echo "... search-algorithm/binary-serach/BinarySearch.i"
+	@echo "... search-algorithm/binary-serach/BinarySearch.s"
+	@echo "... search-algorithm/block-search/BlockSearch.o"
+	@echo "... search-algorithm/block-search/BlockSearch.i"
+	@echo "... search-algorithm/block-search/BlockSearch.s"
 	@echo "... set-structure/disjoint-set/DisjointSet.o"
 	@echo "... set-structure/disjoint-set/DisjointSet.i"
 	@echo "... set-structure/disjoint-set/DisjointSet.s"
@@ -1074,12 +1155,21 @@ help:
 	@echo "... sort-algorithm/SwapSort.o"
 	@echo "... sort-algorithm/SwapSort.i"
 	@echo "... sort-algorithm/SwapSort.s"
+	@echo "... tree-structure/balanced-binary-tree/BalancedBinaryTree.o"
+	@echo "... tree-structure/balanced-binary-tree/BalancedBinaryTree.i"
+	@echo "... tree-structure/balanced-binary-tree/BalancedBinaryTree.s"
 	@echo "... tree-structure/binary-tree/BinaryTree.o"
 	@echo "... tree-structure/binary-tree/BinaryTree.i"
 	@echo "... tree-structure/binary-tree/BinaryTree.s"
 	@echo "... tree-structure/huffman-tree/HuffmanTree.o"
 	@echo "... tree-structure/huffman-tree/HuffmanTree.i"
 	@echo "... tree-structure/huffman-tree/HuffmanTree.s"
+	@echo "... tree-structure/red-black-tree/RedBlackTree.o"
+	@echo "... tree-structure/red-black-tree/RedBlackTree.i"
+	@echo "... tree-structure/red-black-tree/RedBlackTree.s"
+	@echo "... tree-structure/sorted-binary-tree/SortedBinaryTree.o"
+	@echo "... tree-structure/sorted-binary-tree/SortedBinaryTree.i"
+	@echo "... tree-structure/sorted-binary-tree/SortedBinaryTree.s"
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.o"
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.i"
 	@echo "... tree-structure/threaded-binary-tree/ThreadedBinaryTree.s"
