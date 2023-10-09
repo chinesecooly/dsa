@@ -63,9 +63,17 @@ int BF(String src, String target) {
  * @param target
  * @return
  */
-int *getNext(String src, String target) {
+int *getNext(String target) {
     int *next = calloc(target->length + 1, sizeof(int));
     *(next + 1) = 0;
+    int i = 1, j = 0;
+    while (i < target->length) {
+        if (j == 0 || charAt(target, i) == charAt(target, j)) {
+            next[++i] = ++j;
+        } else {
+            j = next[j];
+        }
+    }
 }
 
 /**
@@ -75,10 +83,10 @@ int *getNext(String src, String target) {
  * @return
  */
 int KMP(String src, String target) {
-    int *next = getNext(src, target);
+    int *next = getNext(target);
     int i = 1, j = 1;
     while (i <= src->length && j <= target->length) {
-        if (j == 0 || *(src->ch + i - 1) == *(target->ch + j - 1)) {
+        if (j == 0 || charAt(target, i) == charAt(target, j)) {
             i++;
             j++;
         } else {
@@ -98,9 +106,20 @@ int KMP(String src, String target) {
  * @param target
  * @return
  */
-int *getNextVal(String src, String target) {
-    int *next = calloc(target->length + 1, sizeof(int));
-    *(next + 1) = 0;
+int *getNextVal(String target) {
+    int *nextVal = calloc(target->length + 1, sizeof(int));
+    *(nextVal + 1) = 0;
+    int i = 1, j = 0;
+    while (i < target->length) {
+        if (j == 0 || charAt(target, i) == charAt(target, j)) {
+            nextVal[++i] = ++j;
+            if (charAt(target, i) == charAt(target, nextVal[i])) {
+                nextVal[i] = nextVal[nextVal[i]];
+            }
+        } else {
+            j = nextVal[j];
+        }
+    }
 }
 
 /**
@@ -110,7 +129,21 @@ int *getNextVal(String src, String target) {
  * @return
  */
 int enKMP(String src, String target) {
-
+    int *next = getNextVal(target);
+    int i = 1, j = 1;
+    while (i <= src->length && j <= target->length) {
+        if (j == 0 || charAt(target, i) == charAt(target, j)) {
+            i++;
+            j++;
+        } else {
+            j = *(next + j);
+        }
+    }
+    if (j > target->length) {
+        return i - target->length;
+    } else {
+        return 0;
+    }
 }
 
 
