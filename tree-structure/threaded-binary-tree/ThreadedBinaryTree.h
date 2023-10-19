@@ -6,6 +6,7 @@
 #define DSA_THREADEDBINARYTREE_H
 
 #include "../../util/Util.h"
+#include "../../linear-structure/queue/linked-queue/LinkedQueue.h"
 
 typedef struct ThreadedBinaryTreeNode ThreadedBinaryTreeNode, *ThreadedBinaryTree;
 

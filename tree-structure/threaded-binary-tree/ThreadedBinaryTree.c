@@ -8,6 +8,7 @@ struct ThreadedBinaryTreeNode {
     void *data;
     ThreadedBinaryTreeNode *lNode;
     ThreadedBinaryTreeNode *rNode;
+    ThreadedBinaryTreeNode *pNode;
     bool lIsPredecessor;
     bool rIsSuccessor;
 };
@@ -95,3 +96,64 @@ ThreadedBinaryTree threadedBinaryTreePreInOrderConstructor(void **preOrderList, 
     }
     return tree;
 }
+
+/**
+ * 寻找前序序列的前驱
+ * @param tree
+ * @return
+ */
+ThreadedBinaryTreeNode *preOrderFirstNode(ThreadedBinaryTree tree) {
+    if (tree->lIsPredecessor == true) {
+        return tree->lNode;
+    } else {
+        ThreadedBinaryTreeNode *parent = tree->pNode;
+        if (parent->lNode == tree) {
+            return parent;
+        } else {
+            if (parent->lIsPredecessor == true || parent->lNode == NULL) {
+                return parent;
+            } else {
+                ThreadedBinaryTreeNode *node = parent->lNode;
+                while (node != NULL) {
+                    if (node->rNode == tree) {
+                        break;
+                    } else if (node->rNode != NULL) {
+                        node = node->rNode;
+                    } else if (node->lIsPredecessor == false && node->lNode != NULL) {
+                        node = node->lNode;
+                    }
+                }
+                return node;
+            }
+        }
+    }
+}
+
+/**
+ * 寻找前序序列的后继
+ * @param tree
+ * @return
+ */
+ThreadedBinaryTreeNode *preOrderNextNode(ThreadedBinaryTree tree) {
+    if (tree->rIsSuccessor == true) {
+        return tree->rNode;
+    } else {
+        if (tree->lIsPredecessor == false && tree->lNode != NULL) {
+            return tree->lNode;
+        } else {
+            return tree->rNode;
+        }
+    }
+}
+
+/**
+ * 线索二叉树前序遍历
+ * @param tree
+ * @param queue
+ */
+void threadedBinaryTreePreOrder(ThreadedBinaryTree tree, LinkedQueue queue) {
+    for (ThreadedBinaryTreeNode *node = tree; node != NULL; node = preOrderNextNode(node)) {
+        linkedQueueEnQueue(queue, node->data);
+    }
+}
+
