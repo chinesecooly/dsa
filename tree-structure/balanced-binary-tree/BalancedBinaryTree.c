@@ -25,60 +25,57 @@ BalancedBinaryTree balancedBinaryTreeConstructor(void **elementList, int size, i
     return tree;
 }
 
-void ll(BalancedBinaryTree tree) {
-    BalancedBinaryTreeNode *lNode = tree->lNode;
-    void *lNodeData = lNode->data;
-    BalancedBinaryTreeNode *rNode = tree->rNode;
-    lNode->data = tree->data;
-    tree->data = lNodeData;
-    tree->lNode = lNode->lNode;
-    tree->rNode = lNode;
-    lNode->lNode = rNode;
+static void ll(BalancedBinaryTree *tree) {
+    BalancedBinaryTreeNode *rootNode = *tree;
+    BalancedBinaryTreeNode *lNode = rootNode->lNode;
+    BalancedBinaryTreeNode *lrNode = lNode->rNode;
+    *tree = lNode;
+    lNode->rNode = rootNode;
+    rootNode->lNode = lrNode;
 }
 
-void rr(BalancedBinaryTree tree) {
-    BalancedBinaryTreeNode *lNode = tree->lNode;
-    BalancedBinaryTreeNode *rNode = tree->rNode;
-    void *rNodeData = rNode->data;
-    rNode->data = tree->data;
-    tree->data = rNodeData;
-    tree->rNode = rNode->rNode;
-    tree->lNode = rNode;
-    rNode->rNode = rNode->lNode;
-    rNode->lNode = lNode;
+static void rr(BalancedBinaryTree *tree) {
+    BalancedBinaryTreeNode *rootNode = *tree;
+    BalancedBinaryTreeNode *rNode = rootNode->rNode;
+    BalancedBinaryTreeNode *rlNode = rNode->lNode;
+    *tree = rNode;
+    rNode->lNode = rootNode;
+    rootNode->rNode = rlNode;
 }
 
-void lr(BalancedBinaryTree tree) {
-    BalancedBinaryTreeNode *rNode = tree->rNode;
-    BalancedBinaryTreeNode *lrNode = tree->lNode->rNode;
-    void *lrNodeData = lrNode->data;
-    lrNode->data = tree->data;
-    tree->data = lrNodeData;
-    tree->lNode->rNode = lrNode->lNode;
-    tree->rNode = lrNode;
-    lrNode->lNode = lrNode->rNode;
-    lrNode->rNode = rNode;
+static void lr(BalancedBinaryTree *tree) {
+    BalancedBinaryTreeNode *rootNode = *tree;
+    BalancedBinaryTreeNode *lNode = rootNode->lNode;
+    BalancedBinaryTreeNode *lrNode = lNode->rNode;
+    BalancedBinaryTreeNode *lrlNode = lrNode->lNode;
+    BalancedBinaryTreeNode *lrrNode = lrNode->rNode;
+    *tree = lrNode;
+    lrNode->lNode = lNode;
+    lrNode->rNode = rootNode;
+    lNode->rNode = lrlNode;
+    rootNode->lNode = lrrNode;
 }
 
-void rl(BalancedBinaryTree tree) {
-    BalancedBinaryTreeNode *lNode = tree->lNode;
-    BalancedBinaryTreeNode *rlNode = tree->rNode->lNode;
-    void *rlData = rlNode->data;
-    rlNode->data = tree->data;
-    tree->data = rlData;
-    tree->rNode->lNode = rlNode->rNode;
-    tree->lNode = rlNode;
-    rlNode->rNode = rlNode->lNode;
-    rlNode->lNode = lNode;
+static void rl(BalancedBinaryTree *tree) {
+    BalancedBinaryTreeNode *rootNode = *tree;
+    BalancedBinaryTreeNode *rNode = rootNode->rNode;
+    BalancedBinaryTreeNode *rlNode = rNode->lNode;
+    BalancedBinaryTreeNode *rllNode = rlNode->lNode;
+    BalancedBinaryTreeNode *rlrNode = rlNode->rNode;
+    *tree = rlNode;
+    rlNode->lNode = rootNode;
+    rlNode->rNode = rNode;
+    rNode->lNode = rlrNode;
+    rootNode->rNode = rllNode;
 }
 
-void imbalanceAdjust(BalancedBinaryTree tree) {
-    int lDeep = balancedBinaryTreeDeep(tree->lNode);
-    int rDeep = balancedBinaryTreeDeep(tree->rNode);
+static void imbalanceAdjust(BalancedBinaryTree *tree) {
+    int lDeep = balancedBinaryTreeDeep((*tree)->lNode);
+    int rDeep = balancedBinaryTreeDeep((*tree)->rNode);
     int balance = lDeep - rDeep;
     if (balance > 1) {
-        lDeep = balancedBinaryTreeDeep(tree->lNode->lNode);
-        rDeep = balancedBinaryTreeDeep(tree->lNode->rNode);
+        lDeep = balancedBinaryTreeDeep((*tree)->lNode->lNode);
+        rDeep = balancedBinaryTreeDeep((*tree)->lNode->rNode);
         //左左和左右
         if (lDeep > rDeep) {
             ll(tree);
@@ -86,8 +83,8 @@ void imbalanceAdjust(BalancedBinaryTree tree) {
             lr(tree);
         }
     } else if (balance < -1) {
-        lDeep = balancedBinaryTreeDeep(tree->rNode->lNode);
-        rDeep = balancedBinaryTreeDeep(tree->rNode->rNode);
+        lDeep = balancedBinaryTreeDeep((*tree)->rNode->lNode);
+        rDeep = balancedBinaryTreeDeep((*tree)->rNode->rNode);
         //右右和右左
         if (rDeep > lDeep) {
             rr(tree);
@@ -127,7 +124,7 @@ bool balancedBinaryTreeInsert(BalancedBinaryTree *tree, void *element, int (*com
                 return true;
             } else {
                 bool result = balancedBinaryTreeInsert(&(*tree)->rNode, element, compare);
-                imbalanceAdjust(*tree);
+                imbalanceAdjust(tree);
                 return result;
             }
         } else {
@@ -140,7 +137,7 @@ bool balancedBinaryTreeInsert(BalancedBinaryTree *tree, void *element, int (*com
                 return true;
             } else {
                 bool result = balancedBinaryTreeInsert(&(*tree)->lNode, element, compare);
-                imbalanceAdjust(*tree);
+                imbalanceAdjust(tree);
                 return result;
             }
         }
@@ -203,16 +200,16 @@ bool balancedBinaryTreeDelete(BalancedBinaryTree *tree, void *element, int (*com
                 }
                 (*tree)->data = node->data;
                 bool result = balancedBinaryTreeDelete(&(*tree)->rNode, node->data, compare);
-                imbalanceAdjust(*tree);
+                imbalanceAdjust(tree);
                 return result;
             }
         } else if (cmpResult > 0) {
             bool result = balancedBinaryTreeDelete(&(*tree)->rNode, element, compare);
-            imbalanceAdjust(*tree);
+            imbalanceAdjust(tree);
             return result;
         } else {
             bool result = balancedBinaryTreeDelete(&(*tree)->lNode, element, compare);
-            imbalanceAdjust(*tree);
+            imbalanceAdjust(tree);
             return result;
         }
     }
