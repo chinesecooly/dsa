@@ -11,7 +11,7 @@ typedef struct HuffmanTreeNode {
     struct HuffmanTreeNode *rNode;
 } HuffmanTreeNode;
 
-static void sorted(HuffmanTreeNode *forest[], int size, int (*reCompare)(void *, void *)) {
+static void sort(HuffmanTreeNode **forest, int size, int (*reCompare)(void *, void *)) {
     //todo
 }
 
@@ -36,7 +36,7 @@ HuffmanTree huffmanTreeNodeConstructor(void *dataList[], void *weightList[], int
         forest[i] = node;
         treeCount++;
     }
-    sorted(forest, reCompare);
+    sort(forest, size, reCompare);
     for (; treeCount != 1;) {
         HuffmanTreeNode *node = malloc(sizeof(HuffmanTreeNode));
         node->lNode = forest[0];
@@ -48,7 +48,7 @@ HuffmanTree huffmanTreeNodeConstructor(void *dataList[], void *weightList[], int
         node->data = NULL;
         node->weight = weightSum(node->lNode->weight, node->rNode->weight);
         forest[0] = node;
-        sorted(forest, reCompare);
+        sort(forest, size, reCompare);
     }
     return forest[0];
 }

@@ -1,36 +1,36 @@
-//
-// Created by Administrator on 2023/8/17.
-//
-#include "tree-structure/huffman-tree/HuffmanTree.h"
-#include "linear-structure/queue/linked-queue/LinkedQueue.h"
+#include "tree-structure/red-black-tree/RedBlackTree.h"
+#include "tree-structure/balanced-binary-tree/BalancedBinaryTree.h"
 
-int reCompare(void *a, void *b) {
-    if (*((int *) a) > *((int *) b)) {
-        return -1;
-    } else if (*((int *) a) == *((int *) b)) {
-        return 0;
-    } else {
-        return 1;
-    }
-}
+void dataPrint(void *);
 
-void *weightSum(void *a, void *b) {
-    int *sum = malloc(sizeof(int));
-    *sum = *((int *) a) + *((int *) b);
-    return sum;
-}
-
-int main() {
-    char data[] = {'a', 'b', 'c', 'd', 'e', 'f'};
-    char *dataList[] = {data, data + 1, data + 2, data + 3, data + 4, data + 5};
-    int weight[] = {45, 13, 12, 16, 9, 5};
-    int *weightList[] = {weight, weight + 1, weight + 2, weight + 3, weight + 4, weight + 5};
-    HuffmanTree tree = huffmanTreeNodeConstructor(dataList, weightList, 6, reCompare, weightSum);
-    for (int i = 0; i < 6; ++i) {
-        char *code = huffmanCoding(tree, data + i, reCompare);
-        printf("%c:%s\n",data[i],code);
+int main(int argc, char **argv) {
+    int dataList[] = {20, 10, 5, 30, 40, 57, 3, 2, 4, 35, 25, 18, 22, 23, 24, 19, 18};
+    RedBlackTree tree = redBlackTreeConstructor(NULL, 0, intCompare);
+    for (int i = 0; i < 17; ++i) {
+        redBlackTreeInsert(&tree, dataList + i, intCompare);
+        redBlackTreePrint(tree, dataPrint);
+        printf("-------------\n");
     }
     return 0;
+}
+
+//BalancedBinaryTree
+//int main(int argc, char **argv) {
+//    int dataList[] = {15, 3, 7, 10, 9, 8};
+//    BalancedBinaryTree tree = balancedBinaryTreeConstructor(NULL, 0, intCompare);
+//    for (int i = 0; i < 6; ++i) {
+//        balancedBinaryTreeInsert(&tree, dataList + i, intCompare);
+//        balancedBinaryTreePrint(tree, dataPrint);
+//        printf("-------------\n");
+//    }
+//    balancedBinaryTreeDelete(&tree, dataList + 4, intCompare);
+//    balancedBinaryTreePrint(tree, dataPrint);
+//    printf("-------------\n");
+//    return 0;
+//}
+
+void dataPrint(void *data) {
+    printf("%d", *((int *) data));
 }
 
 

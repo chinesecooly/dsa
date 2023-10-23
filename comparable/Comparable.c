@@ -5,19 +5,47 @@
 #include "Comparable.h"
 
 int intComp(void *a, void *b) {
-    return *((int *) a) - *((int *) b) > 0;
+    int sub = *((int *) a) - *((int *) b);
+    if (sub > 0) {
+        return 1;
+    } else if (sub < 0) {
+        return -1;
+    } else {
+        return 0;
+    }
 }
 
 int floatComp(void *a, void *b) {
-    return *((float *) a) - *((float *) b) > 0;
+    float sub = *((float *) a) - *((float *) b);
+    if (sub > 0) {
+        return 1;
+    } else if (sub < 0) {
+        return -1;
+    } else {
+        return 0;
+    }
 }
 
 int doubleComp(void *a, void *b) {
-    return *((double *) a) - *((double *) b) > 0;
+    double sub = *((double *) a) - *((double *) b);
+    if (sub > 0) {
+        return 1;
+    } else if (sub < 0) {
+        return -1;
+    } else {
+        return 0;
+    }
 }
 
 int charComp(void *a, void *b) {
-    return *((char *) a) - *((char *) b) > 0;
+    char sub = *((char *) a) - *((char *) b);
+    if (sub > 0) {
+        return 1;
+    } else if (sub < 0) {
+        return -1;
+    } else {
+        return 0;
+    }
 }
 
 int (*intCompare)(void *, void *) =intComp;
