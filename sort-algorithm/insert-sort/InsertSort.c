@@ -4,25 +4,23 @@
 
 #include "InsertSort.h"
 
-void directInsert(InsertSortElemType elems[], int len) {
-    for (int i = 1; i < len; ++i) {
-        int temp = elems[i];
-        for (int j = i - 1; j >= 0; --j) {
-            if (temp < elems[j]) {
-                elems[j + 1] = elems[j];
-                if (j == 0) {
-                    elems[j] = temp;
-                    break;
-                }
-            } else {
-                elems[j + 1] = temp;
-                break;
-            }
+/**
+ * 直接插入排序
+ * @param dataList
+ * @param length
+ */
+void directInsert(void *dataList[], int length, int (*compare)(void *, void *)) {
+    for (int i = 2; i <= length; ++i) {
+        void *data = dataList[i];
+        int j;
+        for (j = i - 1; j > 0 && compare(data, dataList[j - 1]) < 0; --j) {
+            dataList[j + 1 - 1] = dataList[j - 1];
         }
+        dataList[j + 1 - 1] = data;
     }
 }
 
-void binaryInsertSort(InsertSortElemType elems[], int len) {
+void binaryInsertSort(void *elems[], int len) {
     for (int i = 1; i < len; ++i) {
         int temp = elems[i];
         int mid, high = i - 1, low = 0;
@@ -41,11 +39,11 @@ void binaryInsertSort(InsertSortElemType elems[], int len) {
     }
 }
 
-void shellSort(InsertSortElemType elems[], int len) {
+void shellSort(void *elems[], int len) {
     for (int p = len / 2; p >= 1; p /= 2) {
         for (int i = p; i < len; ++i) {
             int temp = elems[i];
-            for (int j = i - p; j >= 0; j-=p) {
+            for (int j = i - p; j >= 0; j -= p) {
                 if (temp < elems[j]) {
                     elems[j + p] = elems[j];
                     if (j == 0) {
