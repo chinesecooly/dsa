@@ -20,38 +20,43 @@ void directInsert(void *dataList[], int length, int (*compare)(void *, void *)) 
     }
 }
 
-void binaryInsertSort(void *elems[], int len) {
-    for (int i = 1; i < len; ++i) {
-        int temp = elems[i];
-        int mid, high = i - 1, low = 0;
-        for (; low <= high;) {
+/**
+ * 折半插入排序
+ * @param dataList
+ * @param length
+ */
+void binaryInsertSort(void *dataList[], int length, int (*compare)(void *, void *)) {
+    for (int i = 2; i <= length; ++i) {
+        void *data = dataList[i];
+        int mid, high = i - 1, low = 1;
+        while (low <= high) {
             mid = (high + low) / 2;
-            if (elems[mid] > temp) {
+            if (compare(dataList[mid - 1], data) > 0) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-        for (int j = i; j >= low; j--) {
-            elems[j] = elems[j - 1];
+        for (int j = i; j > low; j--) {
+            dataList[j - 1] = dataList[j - 1 - 1];
         }
-        elems[low] = temp;
+        dataList[low - 1] = data;
     }
 }
 
-void shellSort(void *elems[], int len) {
+void shellSort(void *dataList[], int len) {
     for (int p = len / 2; p >= 1; p /= 2) {
         for (int i = p; i < len; ++i) {
-            int temp = elems[i];
+            int temp = dataList[i];
             for (int j = i - p; j >= 0; j -= p) {
-                if (temp < elems[j]) {
-                    elems[j + p] = elems[j];
+                if (temp < dataList[j]) {
+                    dataList[j + p] = dataList[j];
                     if (j == 0) {
-                        elems[j] = temp;
+                        dataList[j] = temp;
                         break;
                     }
                 } else {
-                    elems[j + p] = temp;
+                    dataList[j + p] = temp;
                     break;
                 }
             }
