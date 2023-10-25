@@ -4,11 +4,7 @@
 
 #ifndef DSA_SWAPSORT_H
 #define DSA_SWAPSORT_H
-#include <stdbool.h>
 
-typedef int SwapSortElemType;
-
-void bubbleSort(SwapSortElemType elems[],int len);
-void quickSort(SwapSortElemType elems[],int low,int high);
+#include "../../util/Util.h"
 
 #endif //DSA_SWAPSORT_H
