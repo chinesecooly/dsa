@@ -3,3 +3,9 @@
 //
 
 #include "BTree.h"
+
+struct BTreeNode {
+    void **dataList;
+    BTreeNode **childList;
+    int dataCount;
+};
