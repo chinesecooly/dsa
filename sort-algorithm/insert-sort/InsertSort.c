@@ -44,22 +44,21 @@ void binaryInsertSort(void *dataList[], int length, int (*compare)(void *, void 
     }
 }
 
-void shellSort(void *dataList[], int len) {
-    for (int p = len / 2; p >= 1; p /= 2) {
-        for (int i = p; i < len; ++i) {
-            int temp = dataList[i];
-            for (int j = i - p; j >= 0; j -= p) {
-                if (temp < dataList[j]) {
-                    dataList[j + p] = dataList[j];
-                    if (j == 0) {
-                        dataList[j] = temp;
-                        break;
-                    }
-                } else {
-                    dataList[j + p] = temp;
-                    break;
-                }
+/**
+ * 希尔排序
+ * @param dataList
+ * @param length
+ * @param compare
+ */
+void shellSort(void *dataList[], int length, int (*compare)(void *, void *)) {
+    for (int p = length / 2; p >= 1; p /= 2) {
+        for (int i = p + 1; i <= length; ++i) {
+            void *data = dataList[i - 1];
+            int j;
+            for (j = i - p; j > 0 && compare(data, dataList[j - 1]) < 0; j -= p) {
+                dataList[j + p - 1] = dataList[j - 1];
             }
+            dataList[j + p - 1] = dataList[j - 1];
         }
     }
 }
