@@ -4,7 +4,7 @@
 
 #include "SwapSort.h"
 
-void swap(void **a, void **b) {
+static void swap(void **a, void **b) {
     void *temp = *a;
     *a = *b;
     *b = temp;
@@ -32,25 +32,32 @@ void bubbleSort(void *dataList[], int length, int (*compare)(void *, void *)) {
 }
 
 static int partition(void *dataList[], int low, int high, int (*compare)(void *, void *)) {
-    int pivot = dataList[low];
-    for (; low < high;) {
-        for (; low < high && dataList[high] >= pivot;) {
+    void *pivot = dataList[low - 1];
+    while (low < high) {
+        while (low < high && compare(dataList[high - 1], pivot) > 0) {
             high--;
         }
-        dataList[low] = dataList[high];
-        for (; low < high && dataList[low] <= pivot;) {
+        dataList[low - 1] = dataList[high - 1];
+        while (low < high && compare(dataList[low - 1], pivot) <= 0) {
             low++;
         }
-        dataList[high] = dataList[low];
+        dataList[high - 1] = dataList[low - 1];
     }
-    dataList[low] = pivot;
+    dataList[low - 1] = pivot;
     return low;
 }
 
+/**
+ * 快速排序
+ * @param dataList
+ * @param low
+ * @param high
+ * @param compare
+ */
 void quickSort(void *dataList[], int low, int high, int (*compare)(void *, void *)) {
     if (low < high) {
-        int pivotPos = partition(dataList, low, high);
-        quickSort(dataList, low, pivotPos - 1);
-        quickSort(dataList, pivotPos + 1, high);
+        int pivotPos = partition(dataList, low, high, compare);
+        quickSort(dataList, low, pivotPos - 1, compare);
+        quickSort(dataList, pivotPos + 1, high, compare);
     }
 }
