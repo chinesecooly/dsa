@@ -4,50 +4,66 @@
 
 #include "SelectSort.h"
 
-void SimpleSelectSort(SelectSortElemType elems[], int len) {
-    for (int i = 0; i < len - 1; ++i) {
+static void swap(void **a, void **b) {
+    void *temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+/**
+ * 简单选择排序
+ * @param dataList
+ * @param length
+ * @param compare
+ */
+void SimpleSelectSort(void *dataList[], int length, int (*compare)(void *, void *)) {
+    for (int i = 1; i < length; ++i) {
         int minIndex = i;
-        for (int j = i + 1; j < len; ++j) {
-            if (elems[j] < elems[minIndex]) {
+        for (int j = i + 1; j <= length; ++j) {
+            if (compare(dataList[j], dataList[minIndex]) < 0) {
                 minIndex = j;
             }
         }
         if (minIndex != i) {
-            int temp = elems[i];
-            elems[i] = elems[minIndex];
-            elems[minIndex] = temp;
+            swap(dataList[i], dataList[minIndex]);
         }
     }
 }
 
-static void headAdjust(SelectSortElemType elems[], int rootIndex, int len) {
-    int root = elems[rootIndex];
-    for (int i = 2 * rootIndex; i < len; i *= 2) {
-        if (i + 1 < len && elems[i + 1] > elems[i]) {
+static void heapAdjust(void **dataList, int rootIndex, int length, int (*compare)(void *, void *)) {
+    void *root = dataList[rootIndex - 1];
+    //i指向左孩子
+    for (int i = 2 * rootIndex; i <= length; i *= 2) {
+        //如果右孩子>左孩子，则让i指向右孩子
+        if (i < length && compare(dataList[i + 1 - 1], dataList[i - 1]) > 0) {
             i++;
         }
-        if (root >= elems[i]) {
+        if (compare(root, dataList[i - 1]) > 0) {
             break;
         } else {
-            elems[rootIndex] = elems[i];
-            elems[i] = root;
+            dataList[rootIndex - 1] = dataList[i - 1];
             rootIndex = i;
         }
     }
+    dataList[rootIndex - 1] = root;
 }
 
-static void buildMaxHead(SelectSortElemType elems[], int len) {
-    for (int i = len / 2; i >= 0; i--) {
-        headAdjust(elems, i, len);
+static void buildMaxHeap(void **dataList, int length, int (*compare)(void *, void *)) {
+    for (int i = length / 2; i > 0; i--) {
+        heapAdjust(dataList, i, length, compare);
     }
 }
 
-void headSort(SelectSortElemType elems[], int len) {
-    buildMaxHead(elems, len);
-    for (int i = len; i >0; i--) {
-        int temp = elems[0];
-        elems[0] = elems[i - 1];
-        elems[i - 1] = temp;
-        headAdjust(elems, 0, i - 1);
+/**
+ * 堆排序
+ * @param dataList
+ * @param length
+ * @param compare
+ */
+void heapSort(void **dataList, int length, int (*compare)(void *, void *)) {
+    buildMaxHeap(dataList, length, compare);
+    for (int i = length; i > 1; i--) {
+        swap(dataList[i - 1], dataList[1 - 1]);
+        heapAdjust(dataList, 1 - 1, i - 1, compare);
     }
 }

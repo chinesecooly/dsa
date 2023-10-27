@@ -5,9 +5,6 @@
 #ifndef DSA_SELECTSORT_H
 #define DSA_SELECTSORT_H
 
-typedef int SelectSortElemType;
-
-void SimpleSelectSort(SelectSortElemType elems[], int len);
-void headSort(SelectSortElemType elems[], int len);
+#include "../../util/Util.h"
 
 #endif //DSA_SELECTSORT_H
