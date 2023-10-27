@@ -3,32 +3,46 @@
 //
 #include "MergeSort.h"
 
-static void merge(MergeSortElemType elems[],int low,int mid,int high){
-    MergeSortElemType temp[high+1];
-    int i,j,k;
-    for (k = low; k <=high; ++k) {
-        temp[k]=elems[k];
+static void merge(void *dataList[], int length, int low, int mid, int high, int (*compare)(void *, void *)) {
+    void *temp[length];
+    int i, j, k;
+    for (k = low; k <= high; ++k) {
+        temp[k] = dataList[k];
     }
-    for (i = low,j=mid+1,k=i; i <=mid&&j<=high; k++) {
-        if (temp[i]<temp[j]){
-            elems[k]=temp[i++];
-        } else{
-            elems[k]=temp[j++];
+    for (i = low, j = mid + 1, k = i; i <= mid && j <= high; k++) {
+        if (compare(temp[i - 1], temp[j - 1]) < 0) {
+            dataList[k - 1] = temp[i - 1];
+            i--;
+        } else {
+            dataList[k - 1] = temp[j - 1];
+            j++;
         }
     }
-    for (;i<=mid;){
-        elems[k++]=temp[i++];
+    while (i <= mid) {
+        dataList[k - 1] = temp[i - 1];
+        k++;
+        i++;
     }
-    for (;j<=high;){
-        elems[k++]=temp[j++];
+    for (; j <= high;) {
+        dataList[k - 1] = temp[j - 1];
+        k++;
+        j++;
     }
 }
 
-void mergeSort(MergeSortElemType elems[],int low,int high){
-    if (low<high){
-        int mid=(low+high)/2;
-        mergeSort(elems,low,mid);
-        mergeSort(elems,mid+1,high);
-        merge(elems,low,mid,high);
+/**
+ * 归并排序
+ * @param dataList
+ * @param length
+ * @param low
+ * @param high
+ * @param compare
+ */
+void mergeSort(void *dataList[], int length, int low, int high, int (*compare)(void *, void *)) {
+    if (low < high) {
+        int mid = (low + high) / 2;
+        mergeSort(dataList, length, low, mid, compare);
+        mergeSort(dataList, length, mid + 1, high, compare);
+        merge(dataList, length, low, mid, high, compare);
     }
 }

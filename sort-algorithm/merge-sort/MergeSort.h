@@ -4,11 +4,7 @@
 
 #ifndef DSA_MERGESORT_H
 #define DSA_MERGESORT_H
-#include <stdbool.h>
-#include <stddef.h>
-#include <stdlib.h>
 
-typedef int MergeSortElemType;
-void mergeSort(MergeSortElemType elems[],int low,int high);
+#include "../../util/Util.h"
 
 #endif //DSA_MERGESORT_H
