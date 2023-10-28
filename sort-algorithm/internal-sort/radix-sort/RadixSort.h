@@ -5,8 +5,8 @@
 #ifndef DSA_RADIXSORT_H
 #define DSA_RADIXSORT_H
 
-#include "../../util/Util.h"
-#include "../../linear-structure/queue/linked-queue/LinkedQueue.h"
+#include "../../../util/Util.h"
+#include "../../../linear-structure/queue/linked-queue/LinkedQueue.h"
 
 /**
  * 基数排序

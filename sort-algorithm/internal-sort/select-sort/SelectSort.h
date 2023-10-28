@@ -5,6 +5,6 @@
 #ifndef DSA_SELECTSORT_H
 #define DSA_SELECTSORT_H
 
-#include "../../util/Util.h"
+#include "../../../util/Util.h"
 
 #endif //DSA_SELECTSORT_H

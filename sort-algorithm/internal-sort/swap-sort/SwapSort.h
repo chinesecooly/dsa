@@ -5,6 +5,6 @@
 #ifndef DSA_SWAPSORT_H
 #define DSA_SWAPSORT_H
 
-#include "../../util/Util.h"
+#include "../../../util/Util.h"
 
 #endif //DSA_SWAPSORT_H
