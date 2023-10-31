@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
+#include <limits.h>
 #include "../error/Error.h"
 #include "../comparable/Comparable.h"
 
