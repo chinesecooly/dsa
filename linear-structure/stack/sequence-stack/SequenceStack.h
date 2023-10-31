@@ -13,7 +13,7 @@ typedef struct SequenceStack *SequenceStack;
  * 构造站
  * @return
  */
-SequenceStack sequenceStackConstructor();
+SequenceStack sequenceStackConstructor(int size);
 
 /**
  * 销毁栈
@@ -26,20 +26,27 @@ void sequenceStackDestroy(SequenceStack stack);
  * @param stack
  * @param element
  */
-void sequenceStackPush(SequenceStack stack, void * element) throws FULL_ERROR;
+void sequenceStackPush(SequenceStack stack, void *element) throws FULL_ERROR;
 
 /**
  * 出栈
  * @param stack
  * @return
  */
-void * sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR;
+void *sequenceStackPop(SequenceStack stack) throws EMPTY_ERROR;
 
 /**
  * 查看栈顶元素
  * @param stack
  * @return
  */
-void * sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR;
+void *sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR;
+
+/**
+ * 判断栈是否为空
+ * @param stack
+ * @return
+ */
+bool sequenceStackIsEmpty(SequenceStack stack);
 
 #endif //DSA_SEQUENCESTACK_H

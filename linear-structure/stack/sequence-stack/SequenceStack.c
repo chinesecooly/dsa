@@ -67,3 +67,16 @@ void *sequenceStackPeek(SequenceStack stack) throws EMPTY_ERROR {
     }
     return *(stack->data + stack->top - 1);
 }
+
+/**
+ * 判断栈是否为空
+ * @param stack
+ * @return
+ */
+bool sequenceStackIsEmpty(SequenceStack stack) {
+    if (stack->top == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
